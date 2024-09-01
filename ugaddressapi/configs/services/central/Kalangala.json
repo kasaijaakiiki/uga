@@ -1,0 +1,388 @@
+[
+    {
+        "district": "Kagadi",
+        "dist_code": 510,
+        "location": {
+            "Latitude": 0.93786,
+            "Longitude": 30.81329
+        },
+        "population": [
+            {
+                "year": 1991,
+                "males": "?",
+                "females": "?",
+                "hh_numbs": "?",
+                "hh_size": "?",
+                "total": 250511
+            },
+            {
+                "year": 2002,
+                "males": "?",
+                "females": "?",
+                "hh_numbs": "?",
+                "hh_size": "?",
+                "total": 329858
+            },
+            {
+                "year": 2014,
+                "males": 213443,
+                "females": 222963,
+                "hh_numbs": 99401,
+                "hh_size": 4.2,
+                "total": 436406
+            },
+            {
+                "year": 2024,
+                "males": "?",
+                "females": "?",
+                "hh_numbs": "?",
+                "hh_size": "?",
+                "total": "?"
+            }
+        ],
+        "county": [
+            {
+                "cty": "Buyaga East",
+                "subcounty": [
+                    {
+                        "sub_cty": "Kagadi TC",
+                        "location": {
+                            "Longitude": 9.96233,
+                            "Latitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 9849,
+                                "hh_size": 3.6,
+                                "males": 19057,
+                                "females": 20426,
+                                "total": 39483
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Kagadi Central",
+                                "par_code": 51001,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kitegwa ward",
+                                "par_code": 51002,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kibanga ward",
+                                "par_code": 51003,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Nambugu ward",
+                                "par_code": 51004,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kiraba ward",
+                                "par_code": 51005,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kyamukama ward",
+                                "par_code": 31006,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sub_cty": "Kagadi",
+                        "location": {
+                            "Longitude": 9.96233,
+                            "Latitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 9849,
+                                "hh_size": 3.6,
+                                "males": 19057,
+                                "females": 20426,
+                                "total": 39483
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Busirabo",
+                                "par_code": 51007,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kenga",
+                                "par_code": 51008,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kihayura",
+                                "par_code": 51009,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kanyangoma",
+                                "par_code": 51010,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "cty": "Buyaga West",
+                "subcounty": [
+                    {
+                        "sub_cty": "Muhorro TC",
+                        "location": {
+                            "Longitude": 9.96233,
+                            "Latitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 9849,
+                                "hh_size": 3.6,
+                                "males": 19057,
+                                "females": 20426,
+                                "total": 39483
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Nyamiti ward",
+                                "par_code": 51040,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Karuswiga ward",
+                                "par_code": 51041,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kibanga ward",
+                                "par_code": 51003,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Nambugu ward",
+                                "par_code": 51004,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kiraba ward",
+                                "par_code": 51005,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kyamukama ward",
+                                "par_code": 31006,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sub_cty": "Burora",
+                        "location": {
+                            "Longitude": 9.96233,
+                            "Latitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 9849,
+                                "hh_size": 3.6,
+                                "males": 19057,
+                                "females": 20426,
+                                "total": 39483
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Burora",
+                                "par_code": 51046,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kayembe",
+                                "par_code": 51047,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Nyamigisa",
+                                "par_code": 51048,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Nyamakaikuru",
+                                "par_code": 51049,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

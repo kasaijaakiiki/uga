@@ -1,0 +1,1505 @@
+[
+    {
+        "district": "Buikwe",
+        "dist_code": 310,
+        "dist_size": 0,
+        "location": {
+            "Latitude": 0.343333,
+            "Longitude": 33.028889
+        },
+        "pres_elections": [
+            {
+                "year": 2001,
+                "candidate": {
+                    "upc": "Aggrey Awori",
+                    "fdc": "Kiiza Besigye",
+                    "dp": "Francis Bwengye",
+                    "ndf": "Chaapa Karuhanga",
+                    "jf": "Mayanja Kibirige",
+                    "nrm": "Kaguta Museveni"
+                },
+                "image": {
+                    "upc": "img/aowori.jpg",
+                    "fdc": "img/kbesigye.jpg",
+                    "dp": "img/fbwengye.jpg",
+                    "ndf": "img/ckaruhanga.jpg",
+                    "jf": "img/mkibirige.jpg",
+                    "nrm": "img/kmuseveni.jpg"
+                },
+                "votes": {
+                    "upc": 0,
+                    "fdc": 0,
+                    "dp": 0,
+                    "ndf": 0,
+                    "jf": 0,
+                    "nrm": 0,
+                    "reg_voters": 0,
+                    "valid_votes": 0,
+                    "invalid_votes": 0,
+                    "total_votes": 0
+                }
+            },
+            {
+                "year": 2006,
+                "candidate": {
+                    "indep": "Abed Bwanika",
+                    "fdc": "Kiiza Besigye",
+                    "upc": "Miria Obote Kalule",
+                    "dp": "John Ssebaana",
+                    "nrm": "Kaguta Museveni"
+                },
+                "image": {
+                    "indep": "img/abwanika.jpg",
+                    "fdc": "img/kbesigye.jpg",
+                    "upc": "img/mobote.jpg",
+                    "dp": "img/jssebaana.jpg",
+                    "nrm": "img/kmuseveni.jpg"
+                },
+                "votes": {
+                    "indep": 0,
+                    "fdc": 0,
+                    "upc": 0,
+                    "dp": 0,
+                    "nrm": 0,
+                    "reg_voters": 0,
+                    "valid_votes": 0,
+                    "invalid_votes": 0,
+                    "total_votes": 0
+                }
+            },
+            {
+                "year": 2011,
+                "candidate": {
+                    "pdp": "Abed Bwanika",
+                    "fdc": "Kiiza Besigye",
+                    "ufa": "Betty Kamya",
+                    "pp": "Bidandi Saali",
+                    "dp": "Nobert Mao",
+                    "upc": "Olara Otuunu",
+                    "indep": "Lubega Mukaaku",
+                    "nrm": "Kaguta Museveni"
+                },
+                "image": {
+                    "pdp": "img/abwanika.jpg",
+                    "fdc": "img/kbesigye.jpg",
+                    "ufa": "img/bkamya.jpg",
+                    "pp": "img/bsaali.jpg",
+                    "dp": "img/nmao.jpg",
+                    "upc": "img/ootuunu.jpg",
+                    "indep": "img/lmukaaku.jpg",
+                    "nrm": "img/kmuseveni.jpg"
+                },
+                "votes": {
+                    "pdp": 822,
+                    "fdc": 25833,
+                    "ufa": 1171,
+                    "pp": 586,
+                    "dp": 1560,
+                    "upc": 345,
+                    "indep": 232,
+                    "nrm": 64752,
+                    "reg_voters": 183097,
+                    "valid_votes": 95301,
+                    "invalid_votes": 4577,
+                    "total_votes": 99878
+                }
+            },
+            {
+                "year": 2016,
+                "candidate": {
+                    "pdp": "Abed Bwanika",
+                    "indep": "Amama Mbabazi",
+                    "indep1": "Venansius Baryamureeba",
+                    "fpu": "Benon Biraaro",
+                    "fdc": "Kiiza Besigye",
+                    "indep2": "Mabirizi Joseph",
+                    "indep3": "Maureen Kyalya",
+                    "nrm": "Kaguta Museveni"
+                },
+                "image": {
+                    "pdp": "img/abwanika.jpg",
+                    "indep": "img/ambabazi.jpg",
+                    "indep1": "img/vbaryamureeba.jpg",
+                    "fpu": "img/bbiraaro.jpg",
+                    "fdc": "img/kbesigye.jpg",
+                    "indep2": "img/jmabirizi.jpg",
+                    "indep3": "img/mkyalya.jpg",
+                    "nrm": "img/kmuseveni"
+                },
+                "votes": {
+                    "pdp": 1242,
+                    "indep": 861,
+                    "indep1": 434,
+                    "fpu": 228,
+                    "fdc": 51583,
+                    "indep2": 199,
+                    "indep3": 597,
+                    "nrm": 67705,
+                    "reg_voters": 199928,
+                    "valid": 122849,
+                    "invalid": 6280,
+                    "total": 129129
+                }
+            },
+            {
+                "year": 2021,
+                "candidate": {
+                    "fdc": "Patrick Amuriat Oboi",
+                    "indep": "Kiiza Kabuleeta",
+                    "indep1": "Nancy Kalembe",
+                    "indep2": "John Katumba",
+                    "nup": "Kyagulanyi Ssentamu",
+                    "dp": "Nobert Mao",
+                    "indep3": "Mayambala Willy",
+                    "ant": "Mugisha Muntu",
+                    "indep4": "Mwesigye Fred",
+                    "indep5": "Henry Tumukunde",
+                    "nrm": "Kaguta Museveni"
+                },
+                "image": {
+                    "fdc": "img/poboi.jpg",
+                    "indep": "img/jkabuleeta.jpg",
+                    "indep1": "img/nkalembe.jpg",
+                    "indep2": "img/jkatumba.jpg",
+                    "nup": "img/kssentamu.jpg",
+                    "dp": "img/nmao.jpg",
+                    "indep3": "img/wmayambala.jpg",
+                    "ant": "img/mmuntu",
+                    "indep4": "img/fmwesigye.jpg",
+                    "indep5": "img/htumukunde.jpg",
+                    "nrm": "img/kmuseveni.jpg"
+                },
+                "votes": {
+                    "fdc": 1039,
+                    "indep": 219,
+                    "indep1": 314,
+                    "indep2": 382,
+                    "nup": 81852,
+                    "dp": 388,
+                    "indep3": 68,
+                    "ant": 259,
+                    "indep4": 152,
+                    "indep5": 206,
+                    "nrm": 40900,
+                    "reg_voters": 235640,
+                    "valid_votes": 125779,
+                    "invalid_votes": 5430,
+                    "total_votes": 131209
+                }
+            }
+        ],
+        "population": [
+            {
+                "year": 1991,
+                "males": 0,
+                "females": 0,
+                "hh_numbs": 0,
+                "hh_size": 0,
+                "total": 250511
+            },
+            {
+                "year": 2002,
+                "males": 0,
+                "females": 0,
+                "hh_numbs": 0,
+                "hh_size": 0,
+                "total": 329858
+            },
+            {
+                "year": 2014,
+                "males": 213443,
+                "females": 222963,
+                "hh_numbs": 99401,
+                "hh_size": 4.2,
+                "total": 436406
+            },
+            {
+                "year": 2024,
+                "males": 0,
+                "females": 0,
+                "hh_numbs": 0,
+                "hh_size": 0,
+                "total": 0
+            }
+        ],
+        "county": [
+            {
+                "cty": "Lugazi Muncipality",
+                "mp_elections": [
+                    {
+                        "year": 2006,
+                        "candidate": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "dp": 0,
+                            "indep": 0
+                        },
+                        "votes": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "valid": 0,
+                            "invalid": 0,
+                            "total": 0
+                        }
+                    },
+                    {
+                        "year": 2011,
+                        "candidate": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "dp": 0
+                        },
+                        "votes": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "valid": 0,
+                            "invalid": 0,
+                            "total": 0
+                        }
+                    },
+                    {
+                        "year": 2016,
+                        "candidate": {
+                            "indep": "Baker Ssali",
+                            "indep1": "Bashir Lule",
+                            "fdc": "Denis Sendi",
+                            "indep2": "Henry Musoke",
+                            "nrm": "Isaac Ssozi Mulindwa",
+                            "indep3": "Katwe Elizabeth Lugudde",
+                            "sdp": "Richard Ssenkaaba Bogere",
+                            "indep4": "Scout Lugoma",
+                            "dp": "Stephen Sserubuka"
+                        },
+                        "votes": {
+                            "indep": 4427,
+                            "indep1":  886,
+                            "fdc": 721,
+                            "indep2": 1022,
+                            "nrm": 13322,
+                            "indep3": 370,
+                            "sdp": 4918,
+                            "indep4": 347,
+                            "dp": 8752
+                        }
+                    },
+                    {
+                        "year": 2021,
+                        "candidate": {
+                            "np": "Sserubula Stephen",
+                            "indep": "Mulindwa Isaax Ssozi",
+                            "nrm": "Bogere Richard Ssenkaaba",
+                            "indep1": "Sseruwaji Moses",
+                            "fdc": "Onzima Bosco"
+                        },
+                        "votes": {
+                            "np": 14409,
+                            "indep": 10085,
+                            "nrm": 8901,
+                            "indep1": 627,
+                            "fdc": 492
+                        }
+                    },
+                    {
+                        "year": 2026,
+                        "mp_candidate": {
+                            "indep": "",
+                            "indep1": "",
+                            "indep2": ""
+                        },
+                        "votes": {
+                            "indep": 0,
+                            "indep1": 0,
+                            "indep2": 0,
+                            "total": 0
+                        }
+                    }
+                ],
+                "subcounty": [
+                    {
+                        "sub_cty": "Lugazi",
+                        "location": {
+                            "Latitude": 0.368889,
+                            "Longitude": 32.940278
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 9849,
+                                "hh_size": 3.6,
+                                "males": 19057,
+                                "females": 20426,
+                                "total": 39483
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Kawotto",
+                                "par_code": 31001,
+                                "location": {
+                                    "Latitude": 0.39872,
+                                    "Longitude": 32.93587
+                                }
+                            },
+                            {
+                                "par": "Kabowa",
+                                "par_code": 31002,
+                                "location": {
+                                    "Latitude": 0.3809, 
+                                    "Longitude": 32.94127
+                                }
+                            },
+                            {
+                                "par": "Nakazadde",
+                                "par_code": 31003,
+                                "location": {
+                                    "Latitude": 0.3738128,
+                                    "Longitude": 32.7909833
+                                }
+                            },
+                            {
+                                "par": "Lugazi Central",
+                                "par_code": 31003,
+                                "location": {
+                                    "Latitude": 0.3679214,
+                                    "Longitude": 32.9185858
+                                }
+                            },
+                            {
+                                "par": "Namengo",
+                                "par_code": 31005,
+                                "location": {
+                                    "Latitude": 0.3646278,
+                                    "Longitude": 32.937178
+                                }
+                            },
+                            {
+                                "par": "Kikaula",
+                                "par_code": 31006,
+                                "location": {
+                                    "Latitude": 0.369304,
+                                    "Longitude": 32.932233
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sub_cty": "Kawolo",
+                        "location": {
+                            "Latitude": 9.96233,
+                            "Longitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 9692,
+                                "hh_size": 4.0,
+                                "males": 20242,
+                                "females": 20154,
+                                "total": 40396
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Butinindi",
+                                "par_code": 31007,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Bibbo",
+                                "par_code": 31008,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Busabaga",
+                                "par_code": 31009,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kigenda",
+                                "par_code": 31010,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Luwayo",
+                                "par_code": 31011,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kiteza",
+                                "par_code": 31012,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Bulyantete",
+                                "par_code": 31013,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Sagazi",
+                                "par_code": 31014,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kabanga",
+                                "par_code": 31015,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kinoni",
+                                "par_code": 31016,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kizigo",
+                                "par_code": 31017,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sub_cty": "Najjembe",
+                        "location": {
+                            "Latitude": 9.96233,
+                            "Longitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 8165,
+                                "hh_size": 4.0,
+                                "males": 16798,
+                                "females": 16612,
+                                "total": 33410
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Buvunya",
+                                "par_code": 31018,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kitigoma",
+                                "par_code": 31019,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Buwoola",
+                                "par_code": 31009,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Nsakya",
+                                "par_code": 31010,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "cty": "Njeru Municipality",
+                "mp_elections": [
+                    {
+                        "year": 2006,
+                        "candidate": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "dp": 0,
+                            "indep": 0
+                        },
+                        "votes": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "valid": 0,
+                            "invalid": 0,
+                            "total": 0
+                        }
+                    },
+                    {
+                        "year": 2011,
+                        "candidate": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "dp": 0
+                        },
+                        "votes": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "valid": 0,
+                            "invalid": 0,
+                            "total": 0
+                        }
+                    },
+                    {
+                        "year": 2016,
+                        "candidate": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "dp": 0
+                        },
+                        "votes": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "valid": 0,
+                            "invalid": 0,
+                            "total": 0
+                        }
+                    },
+                    {
+                        "year": 2021,
+                        "mp_candidate": {
+                            "np": "Lwanga Jimmy",
+                            "nrm": "Nyango Diana Hope",
+                            "indep": "Musoke Paul Sebulime",
+                            "indep1": "Kabuya Badiru Mpoza",
+                            "fdc": "Emolu Godfrey Kizza",
+                            "indep2": "Onyango David",
+                            "indep3": "Musanje Moses",
+                            "jeema": "Luswata Nashif",
+                            "ant": "Kalazani Charles",
+                            "indep4": "Mugabi Arthur",
+                            "dp": "Wanzala Richard"
+                        },
+                        "votes": {
+                            "np": 13676,
+                            "nrm": 7234,
+                            "indep": 6736,
+                            "indep1": 6094,
+                            "fdc": 4476,
+                            "indep2": 2275,
+                            "indep3": 1513,
+                            "jeema": 1180,
+                            "ant": 834,
+                            "indep4": 431,
+                            "dp": 304
+                        }
+                    },
+                    {
+                        "year": 2026,
+                        "candidate": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "dp": 0
+                        },
+                        "votes": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "valid": 0,
+                            "invalid": 0,
+                            "total": 0
+                        }
+                    }
+                ],
+                "subcounty": [
+                    {
+                        "sub_cty": "Wakisi",
+                        "location": {
+                            "Latitude": 9.96233,
+                            "Longitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 9262,
+                                "hh_size": 4.4,
+                                "males": 20091,
+                                "females": 20941,
+                                "total": 41032
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Kalagala",
+                                "par_code": 31022,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kkonko",
+                                "par_code": 31023,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Wakisi",
+                                "par_code": 31024,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Nakalanga",
+                                "par_code": 31025,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Malindi",
+                                "par_code": 31026,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Naminya",
+                                "par_code": 31027,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sub_cty": "Njeru",
+                        "location": {
+                            "Latitude": 9.96233,
+                            "Longitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 16502,
+                                "hh_size": 4.2,
+                                "males": 38765,
+                                "females": 42287,
+                                "total": 81052
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Njeru West",
+                                "par_code": 31028,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Njeru North",
+                                "par_code": 31029,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Njeru East",
+                                "par_code": 31030,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Njeru South",
+                                "par_code": 31031,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sub_cty": "Nyenga",
+                        "location": {
+                            "Latitude": 9.96233,
+                            "Longitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 10804,
+                                "hh_size": 4.5,
+                                "males": 24278,
+                                "females": 25385,
+                                "total": 49663
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Nyenga",
+                                "par_code": 31032,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Buziika",
+                                "par_code": 31033,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Tongolo",
+                                "par_code": 31034,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Namabu",
+                                "par_code": 31035,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kabizzi",
+                                "par_code": 31036,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Ssunga",
+                                "par_code": 31037,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "cty": "Buikwe County South",
+                "mp_elections": [
+                    {
+                        "year": 2006,
+                        "candidate": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "dp": 0,
+                            "indep": 0
+                        },
+                        "votes": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "valid": 0,
+                            "invalid": 0,
+                            "total": 0
+                        }
+                    },
+                    {
+                        "year": 2011,
+                        "candidate": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "dp": 0
+                        },
+                        "votes": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "valid": 0,
+                            "invalid": 0,
+                            "total": 0
+                        }
+                    },
+                    {
+                        "year": 2016,
+                        "candidate": {
+                            "indep": "Anthony Harris Mukasa",
+                            "nrm": "David Ronnie Mutebi",
+                            "fdc": "Jimmy Kanaabi",
+                            "indep1": "Mugalu Stephen Sembuya",
+                            "dp": "Philip Lulume Bayigga",
+                            "indep2": "Muhammad Ssekyema"
+                        },
+                        "votes": {
+                            "indep": 378,
+                            "nrm": 22919,
+                            "fdc": 492,
+                            "indep1": 2515,
+                            "dp": 17221,
+                            "indep2": 1095
+                        }
+                    },
+                    {
+                        "year": 2021,
+                        "mp_candidate": {
+                            "dp": "Bayigga Michael Philip Lulume",
+                            "nrm": "Mutebi David Ronnie",
+                            "nup": "Sembuya Koona Magulu Stephen",
+                            "jeema": "Nsubuga Murshid",
+                            "indep": "Katambula Stephen",
+                            "indep1": "Sekimuli Andrew",
+                            "indep2": "Sendgere Ivan"
+                        },
+                        "votes": {
+                            "dp": 28759,
+                            "nrm": 15024,
+                            "nup": 2892,
+                            "jeema": 311,
+                            "indep": 305,
+                            "indep1": 300,
+                            "indep2": 174
+                        }
+                    },
+                    {
+                        "year": 2026,
+                        "candidate": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "dp": 0
+                        },
+                        "votes": {
+                            "nrm": 0,
+                            "fdc": 0,
+                            "valid": 0,
+                            "invalid": 0,
+                            "total": 0
+                        }
+                    }
+                ],
+                "subcounty": [
+                    {
+                        "sub_cty": "Najja",
+                        "location": {
+                            "Latitude": 9.96233,
+                            "Longitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 10307,
+                                "hh_size": 4.5,
+                                "males": 22481,
+                                "females": 23871,
+                                "total": 46352
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Namatovu",
+                                "par_code": 31038,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kisiimba",
+                                "par_code": 31039,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Gulama",
+                                "par_code": 31040,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kiyindi",
+                                "par_code": 31041,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Mawotto",
+                                "par_code": 31042,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Tukulu",
+                                "par_code": 31043,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Busagazi",
+                                "par_code": 31044,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sub_cty": "Buikwe",
+                        "location": {
+                            "Latitude": 9.96233,
+                            "Longitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 3965,
+                                "hh_size": 4.4,
+                                "males": 8613,
+                                "females": 9034,
+                                "total": 17647
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Buikwe",
+                                "par_code": 31045,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Lweru",
+                                "par_code": 31046,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Malongwe",
+                                "par_code": 31047,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kitazi",
+                                "par_code": 31048,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Ssungu",
+                                "par_code": 31049,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sub_cty": "Nkokonjeru",
+                        "location": {
+                            "Latitude": 9.96233,
+                            "Longitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 2273,
+                                "hh_size": 3.7,
+                                "males": 4228,
+                                "females": 4776,
+                                "total": 9004
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Mulajje",
+                                "par_code": 31050,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Bukasa",
+                                "par_code": 31051,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Nkonkonjeru",
+                                "par_code": 31052,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sub_cty": "Ngogwe",
+                        "location": {
+                            "Latitude": 9.96233,
+                            "Longitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 8080,
+                                "hh_size": 4.4,
+                                "males": 17997,
+                                "females": 18129,
+                                "total": 36126
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Kikwayi",
+                                "par_code": 31053,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Ndolwa",
+                                "par_code": 31054,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Lubongo",
+                                "par_code": 31055,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Namulesa",
+                                "par_code": 31056,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Ddungi",
+                                "par_code": 31057,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kiringo",
+                                "par_code": 31058,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sub_cty": "Ssi-Bukunja",
+                        "location": {
+                            "Latitude": 9.96233,
+                            "Longitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 6643,
+                                "hh_size": 3.8,
+                                "males": 13012,
+                                "females": 12596,
+                                "total": 25608
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": 0,
+                                "hh_size": 0,
+                                "males": 0,
+                                "females": 0,
+                                "total": 0
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Namukuma",
+                                "par_code": 31059,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Lugala",
+                                "par_code": 31060,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kimera",
+                                "par_code": 31061,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kkoba",
+                                "par_code": 31062,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Muvo",
+                                "par_code": 31063,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Zzitwe",
+                                "par_code": 31064,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Lugoba",
+                                "par_code": 31065,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

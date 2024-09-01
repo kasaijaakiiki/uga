@@ -1,0 +1,234 @@
+[
+    {
+        "district": "Buikwe",
+        "dist_code": 310,
+        "location": {
+            "Latitude": 0.343333,
+            "Longitude": 33.028889
+        },
+        "population": [
+            {
+                "year": 1991,
+                "males": "?",
+                "females": "?",
+                "hh_numbs": "?",
+                "hh_size": "?",
+                "total": 250511
+            },
+            {
+                "year": 2002,
+                "males": "?",
+                "females": "?",
+                "hh_numbs": "?",
+                "hh_size": "?",
+                "total": 329858
+            },
+            {
+                "year": 2014,
+                "males": 213443,
+                "females": 222963,
+                "hh_numbs": 99401,
+                "hh_size": 4.2,
+                "total": 436406
+            },
+            {
+                "year": 2024,
+                "males": "?",
+                "females": "?",
+                "hh_numbs": "?",
+                "hh_size": "?",
+                "total": "?"
+            }
+        ],
+        "county": [
+            {
+                "cty": "Buikwe",
+                "subcounty": [
+                    {
+                        "sub_cty": "Lugazi TC",
+                        "location": {
+                            "Latitude": 9.96233,
+                            "Longitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 9849,
+                                "hh_size": 3.6,
+                                "males": 19057,
+                                "females": 20426,
+                                "total": 39483
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Kawotto",
+                                "par_code": 31001,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kabowa",
+                                "par_code": 31002,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Nakazadde",
+                                "par_code": 31003,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Lugazi Central",
+                                "par_code": 31003,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Namengo",
+                                "par_code": 31005,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kikaula",
+                                "par_code": 31006,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sub_cty": "Kawolo",
+                        "location": {
+                            "Longitude": 9.96233,
+                            "Latitude": 49.80404
+                        },
+                        "population": [
+                            {
+                                "year": 1991,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            },
+                            {
+                                "year": 2002,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            },
+                            {
+                                "year": 2014,
+                                "hh_numbs": 9849,
+                                "hh_size": 3.6,
+                                "males": 19057,
+                                "females": 20426,
+                                "total": 39483
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": "?",
+                                "hh_size": "?",
+                                "males": "?",
+                                "females": "?",
+                                "total": "?"
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Butinindi",
+                                "par_code": 31007,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Bibbo",
+                                "par_code": 31008,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Busabaga",
+                                "par_code": 31009,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kigenda",
+                                "par_code": 31010,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Luwayo",
+                                "par_code": 31011,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            },
+                            {
+                                "par": "Kiteza",
+                                "par_code": 31012,
+                                "location": {
+                                    "Latitude": 0.39235,
+                                    "Longitude": 32.93545
+                                }
+                            }
+                        ]
+                    }
+                ]
+                
+            }
+        ]
+    }
+]

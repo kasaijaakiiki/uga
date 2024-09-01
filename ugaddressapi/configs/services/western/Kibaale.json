@@ -1,0 +1,569 @@
+[
+    {
+        "district": "Hoima",
+        "dist_code": 513,
+        "dist_size": 1414.7,
+        "city": "",
+        "location": {
+            "Latitude": 0.343333,
+            "Longitude": 33.028889
+        },
+        "wmp_elections": [
+            {
+                "year": 2016,
+                "candidate": { 
+                    "indep": "Harriet Businge",
+                    "fdc": "Rehemah Nabisere",
+                    "indep1": "Ruth N. Akoraebirungi Biraaba",
+                    "nrm": "Tophace Byagira Kaahwa"
+                },
+                "votes": {
+                    "indep": 43038,
+                    "fdc": 9779,
+                    "indep1": 1343,
+                    "nrm": 96277
+                }
+
+            },
+            {
+                "year": 2021,
+                "candidate": { 
+                    "nrm": "Businge Harriet",
+                    "indep": "Wembabazi Beatrice",
+                    "nup": "Nyamuhaibona Mary",
+                    "ant": "Mulindwa Venah",
+                    "fdc": "Nabiseere Rehemah"
+                },
+                "votes": {
+                    "nrm": 28426,
+                    "indep": 18271,
+                    "nup": 5659,
+                    "ant": 1022,
+                    "fdc": 509
+                }
+
+            }
+        ],
+        "city_mp": [
+            {
+                "year": 2021,
+                "candidate": { 
+                    "fdc": "Nyakato Asinansi",
+                    "nrm": "Kabasindi Violet Kiberu",
+                    "indep": "Plan Nabisubi Bernadette",
+                    "nup": "Kiiza Bridget"
+                },
+                "votes": {
+                    "fdc": 18137,
+                    "nrm": 11256,
+                    "indep": 5659,
+                    "nup": 1246
+                }
+            }
+        ],
+        "pres_elections": [
+            {
+                "year": 2001,
+                "candidate": {
+                    "upc": "Aggrey Awori",
+                    "fdc": "Kiiza Besigye",
+                    "dp": "Francis Bwengye",
+                    "ndf": "Chaapa Karuhanga",
+                    "jf": "Mayanja Kibirige",
+                    "nrm": "Kaguta Museveni"
+                },
+                "image": {
+                    "upc": "img/aowori.jpg",
+                    "fdc": "img/kbesigye.jpg",
+                    "dp": "img/fbwengye.jpg",
+                    "ndf": "img/ckaruhanga.jpg",
+                    "jf": "img/mkibirige.jpg",
+                    "nrm": "img/kmuseveni.jpg"
+                },
+                "votes": {
+                    "upc": 239,
+                    "fdc": 8593,
+                    "dp": 221,
+                    "ndf": 75,
+                    "jf": 452,
+                    "nrm": 79101,
+                    "reg_voters": 129672,
+                    "valid_votes": 88681,
+                    "invalid_votes": 1965,
+                    "total_votes": 90646
+                }
+            },
+            {
+                "year": 2006,
+                "candidate": {
+                    "indep": "Abed Bwanika",
+                    "fdc": "Kiiza Besigye",
+                    "upc": "Miria Obote Kalule",
+                    "dp": "John Ssebaana",
+                    "nrm": "Kaguta Museveni"
+                },
+                "image": {
+                    "indep": "img/abwanika.jpg",
+                    "fdc": "img/kbesigye.jpg",
+                    "upc": "img/mobote.jpg",
+                    "dp": "img/jssebaana.jpg",
+                    "nrm": "img/kmuseveni.jpg"
+                },
+                "votes": {
+                    "indep": 663,
+                    "fdc": 14697,
+                    "upc": 312,
+                    "dp": 545,
+                    "nrm": 76952,
+                    "reg_voters": 133384,
+                    "valid_votes": 93169,
+                    "invalid_votes": 3080,
+                    "total_votes": 96249
+                }
+            },
+            {
+                "year": 2011,
+                "candidate": {
+                    "pdp": "Abed Bwanika",
+                    "fdc": "Kiiza Besigye",
+                    "ufa": "Betty Kamya",
+                    "pp": "Bidandi Saali",
+                    "dp": "Nobert Mao",
+                    "upc": "Olara Otuunu",
+                    "indep": "Lubega Mukaaku",
+                    "nrm": "Kaguta Museveni"
+                },
+                "image": {
+                    "pdp": "img/abwanika.jpg",
+                    "fdc": "img/kbesigye.jpg",
+                    "ufa": "img/bkamya.jpg",
+                    "pp": "img/bsaali.jpg",
+                    "dp": "img/nmao.jpg",
+                    "upc": "img/ootuunu.jpg",
+                    "indep": "img/lmukaaku.jpg",
+                    "nrm": "img/kmuseveni.jpg"
+                },
+                "votes": {
+                    "pdp": 267,
+                    "fdc": 14734,
+                    "ufa": 223,
+                    "pp": 272,
+                    "dp": 193,
+                    "upc": 223,
+                    "indep": 190,
+                    "nrm": 93070,
+                    "reg_voters": 191867,
+                    "valid_votes": 104353,
+                    "invalid_votes": 7369,
+                    "total_votes": 116541
+                }
+            },
+            {
+                "year": 2016,
+                "candidate": {
+                    "pdp": "Abed Bwanika",
+                    "indep": "Amama Mbabazi",
+                    "indep1": "Venansius Baryamureeba",
+                    "fpu": "Benon Biraaro",
+                    "fdc": "Kiiza Besigye",
+                    "indep2": "Mabirizi Joseph",
+                    "indep3": "Maureen Kyalya",
+                    "nrm": "Kaguta Museveni"
+                },
+                "image": {
+                    "pdp": "img/abwanika.jpg",
+                    "indep": "img/ambabazi.jpg",
+                    "indep1": "img/vbaryamureeba.jpg",
+                    "fpu": "img/bbiraaro.jpg",
+                    "fdc": "img/kbesigye.jpg",
+                    "indep2": "img/jmabirizi.jpg",
+                    "indep3": "img/mkyalya.jpg",
+                    "nrm": "img/kmuseveni"
+                },
+                "votes": {
+                    "pdp": 578,
+                    "indep": 907,
+                    "indep1": 448,
+                    "fpu": 236,
+                    "fdc": 35249,
+                    "indep2": 363,
+                    "indep3": 315,
+                    "nrm": 111133,
+                    "reg_voters": 228917,
+                    "valid": 149229,
+                    "invalid": 8194,
+                    "total": 157423
+                }
+            },
+            {
+                "year": 2021,
+                "candidate": {
+                    "fdc": "Patrick Amuriat Oboi",
+                    "indep": "Kiiza Kabuleeta",
+                    "indep1": "Nancy Kalembe",
+                    "indep2": "John Katumba",
+                    "nup": "Kyagulanyi Ssentamu",
+                    "dp": "Nobert Mao",
+                    "indep3": "Mayambala Willy",
+                    "ant": "Mugisha Muntu",
+                    "indep4": "Mwesigye Fred",
+                    "indep5": "Henry Tumukunde",
+                    "nrm": "Kaguta Museveni"
+                },
+                "image": {
+                    "fdc": "img/poboi.jpg",
+                    "indep": "img/jkabuleeta.jpg",
+                    "indep1": "img/nkalembe.jpg",
+                    "indep2": "img/jkatumba.jpg",
+                    "nup": "img/kssentamu.jpg",
+                    "dp": "img/nmao.jpg",
+                    "indep3": "img/wmayambala.jpg",
+                    "ant": "img/mmuntu",
+                    "indep4": "img/fmwesigye.jpg",
+                    "indep5": "img/htumukunde.jpg",
+                    "nrm": "img/kmuseveni.jpg"
+                },
+                "votes": {
+                    "fdc": 345,
+                    "indep": 1896,
+                    "indep1": 142,
+                    "indep2": 114,
+                    "nup": 10973,
+                    "dp": 95,
+                    "indep3": 47,
+                    "ant": 304,
+                    "indep4": 231,
+                    "indep5": 154,
+                    "nrm": 38431,
+                    "reg_voters": 90617,
+                    "valid_votes": 52732,
+                    "invalid_votes": 2971,
+                    "total_votes": 55703
+                }
+            }
+        ],
+        "population": [
+            {
+                "year": 1969,
+                "total": 57324
+            },
+            {
+                "year": 1980,
+                "total": 99881
+            },
+            {
+                "year": 1991,
+                "total": 123518
+            },
+            {
+                "year": 2002,
+                "total": 198833
+            },
+            {
+                "year": 2014,
+                "males": 286705,
+                "females": 287198,
+                "hh_numbs": 125907,
+                "hh_size": 4.5,
+                "total": 573903
+            },
+            {
+                "year": 2024,
+                "males": "N/A",
+                "females": "N/A",
+                "hh_numbs": "N/A",
+                "hh_size": "N/A",
+                "total": "N/A"
+            }
+        ],
+        "county": [
+            {
+                "cty": "Hoima East Division",
+                "mp_elections": [
+                    {
+                        "year": 2006,
+                        "candidate": {
+                            "na": "N/A",
+                            "na1": "N/A",
+                            "na2": "N/A",
+                            "na3": "N/A"
+                        },
+                        "votes": {
+                            "na": "N/A",
+                            "na1": "N/A",
+                            "na2": "N/A",
+                            "na3": "N/A"
+                        }
+                    },
+                    {
+                        "year": 2011,
+                        "candidate": {
+                            "fdc": "Baguma Jolly Patrick",
+                            "nrm": "Kajura Henry Muganwa",
+                            "upc": "Kandole Safiyan",
+                            "indep": "Bisoborwa Hillary",
+                            "indep1": "Isingoma Patrick Mwesigwa"
+                        },
+                        "votes": {
+                            "fdc": 3878,
+                            "nrm": 13235,
+                            "upc": 204,
+                            "indep": 149,
+                            "indep1": 8068
+                        }
+                    },
+                    {
+                        "year": 2016,
+                        "candidate": {
+                            "indep": "Geoffrey Beeraheru",
+                            "nrm": "Lawrence Nkooto Bategeka",
+                            "fdc": "Jolly Kandole Baguma",
+                            "indep1": "Samuel Tumusiime"
+                        },
+                        "votes": {
+                            "indep": 2486,
+                            "nrm": 24472,
+                            "fdc": 6500,
+                            "indep1": 885
+                        }
+                    },
+                    {
+                        "year": 2021,
+                        "candidate": {
+                            "indep": "Isingoma Patrick Mwesigwa",
+                            "nrm": "Asiimwe Jonard",
+                            "nup": "Aguuda Moses",
+                            "indep1": "Mpabaisi Doreen Alituha",
+                            "fdc": "Rwamiti Apuuli"
+                        },
+                        "votes": {
+                            "indep": 9097,
+                            "nrm": 3888,
+                            "nup": 1550,
+                            "indep1": 900,
+                            "fdc": 149
+                        }
+                    },
+                    {
+                        "year": 2026,
+                        "mp_candidate": {
+                            "indep": "N/A",
+                            "indep1": "N/A",
+                            "indep2": "N/A"
+                        },
+                        "votes": {
+                            "indep": "N/A",
+                            "indep1": "N/A",
+                            "indep2": "N/A",
+                            "total": "N/A"
+                        }
+                    }
+                ],
+                "subcounty": [
+                    {
+                        "sub_cty": "Kahoora",
+                        "location": {
+                            "Latitude": 0.368889,
+                            "Longitude": 32.940278
+                        },
+                        "population": [
+                            {
+                                "year": 2014,
+                                "hh_numbs": 9871,
+                                "hh_size": 3.4,
+                                "males": 15824,
+                                "females": 19244,
+                                "total": 35068
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": "N/A",
+                                "hh_size": "N/A",
+                                "males": "N/A",
+                                "females": "N/A",
+                                "total": "N/A"
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Central Ward",
+                                "par_code": 51301,
+                                "mhhi": 0,
+                                "par_pop": 0,
+                                "location": {
+                                    "Latitude": 0.39872,
+                                    "Longitude": 32.93587
+                                }
+                            },
+                            {
+                                "par": "Northern Ward",
+                                "par_code": 51302,
+                                "mhhi": 0,
+                                "par_pop": 0,
+                                "location": {
+                                    "Latitude": 0.3809,
+                                    "Longitude": 32.94127
+                                }
+                            },
+                            {
+                                "par": "Southern Ward",
+                                "par_code": 51303,
+                                "mhhi": 0,
+                                "par_pop": 0,
+                                "location": {
+                                    "Latitude": 0.3738128,
+                                    "Longitude": 32.7909833
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sub_cty": "Busiisi",
+                        "location": {
+                            "Latitude": 0.368889,
+                            "Longitude": 32.940278
+                        },
+                        "population": [
+                            {
+                                "year": 2014,
+                                "hh_numbs": 4469,
+                                "hh_size": 4.3,
+                                "males": 9511,
+                                "females": 9750,
+                                "total": 19261
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": "N/A",
+                                "hh_size": "N/A",
+                                "males": "N/A",
+                                "females": "N/A",
+                                "total": "N/A"
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Kibingo",
+                                "par_code": 51301,
+                                "mhhi": 0,
+                                "par_pop": 0,
+                                "location": {
+                                    "Latitude": 0.39872,
+                                    "Longitude": 32.93587
+                                }
+                            },
+                            {
+                                "par": "Kasingo",
+                                "par_code": 51302,
+                                "mhhi": 0,
+                                "par_pop": 0,
+                                "location": {
+                                    "Latitude": 0.3809,
+                                    "Longitude": 32.94127
+                                }
+                            },
+                            {
+                                "par": "Kihuukya",
+                                "par_code": 51303,
+                                "mhhi": 0,
+                                "par_pop": 0,
+                                "location": {
+                                    "Latitude": 0.3738128,
+                                    "Longitude": 32.7909833
+                                }
+                            },
+                            {
+                                "par": "Kiduuma",
+                                "par_code": 51303,
+                                "mhhi": 0,
+                                "par_pop": 0,
+                                "location": {
+                                    "Latitude": 0.3738128,
+                                    "Longitude": 32.7909833
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "sub_cty": "Mparo",
+                        "location": {
+                            "Latitude": 0.368889,
+                            "Longitude": 32.940278
+                        },
+                        "population": [
+                            {
+                                "year": 2014,
+                                "hh_numbs": 5695,
+                                "hh_size": 3.9,
+                                "males": 11367,
+                                "females": 12125,
+                                "total": 23492
+                            },
+                            {
+                                "year": 2024,
+                                "hh_numbs": "N/A",
+                                "hh_size": "N/A",
+                                "males": "N/A",
+                                "females": "N/A",
+                                "total": "N/A"
+                            }
+                        ],
+                        "parish": [
+                            {
+                                "par": "Bwikya",
+                                "par_code": 51301,
+                                "mhhi": 0,
+                                "par_pop": 0,
+                                "location": {
+                                    "Latitude": 0.39872,
+                                    "Longitude": 32.93587
+                                }
+                            },
+                            {
+                                "par": "Kicwamba",
+                                "par_code": 51302,
+                                "mhhi": 0,
+                                "par_pop": 0,
+                                "location": {
+                                    "Latitude": 0.3809,
+                                    "Longitude": 32.94127
+                                }
+                            },
+                            {
+                                "par": "Kiheemba",
+                                "par_code": 51303,
+                                "mhhi": 0,
+                                "par_pop": 0,
+                                "location": {
+                                    "Latitude": 0.3738128,
+                                    "Longitude": 32.7909833
+                                }
+                            },
+                            {
+                                "par": "Nyakambugu",
+                                "par_code": 51303,
+                                "mhhi": 0,
+                                "par_pop": 0,
+                                "location": {
+                                    "Latitude": 0.3738128,
+                                    "Longitude": 32.7909833
+                                }
+                            },
+                            {
+                                "par": "Kyentale",
+                                "par_code": 51303,
+                                "mhhi": 0,
+                                "par_pop": 0,
+                                "location": {
+                                    "Latitude": 0.3738128,
+                                    "Longitude": 32.7909833
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+
+        ]
+    }
+]

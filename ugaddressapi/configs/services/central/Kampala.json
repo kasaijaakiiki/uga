@@ -1,0 +1,219 @@
+[
+  {
+      "district": "Kampala",
+      "dist_code": 100,
+      "dist_pop": 1200000,
+      "county": [
+          {
+              "cty": "Central",
+              "subcounty": [
+                  {
+                      "sub_cty": "Central",
+                      "parish": [
+                          {
+                              "par": "civic center",
+                              "par_code": 10101,
+                              "par_lat": 40.922326,
+                              "par_long": -72.637078,
+                              "par_map": "https://t.ly/TdToJ",
+                              "population": [
+                                  {
+                                      "year": 2014,
+                                      "hh_numbs": 7201,
+                                      "hh_size": 4.3,
+                                      "males": 10765,
+                                      "females": 12048,
+                                      "pop_subcty": 22813
+                                  },
+                                  {
+                                      "year": 2024,
+                                      "hh_numbs": 7201,
+                                      "hh_size": 4.3,
+                                      "males": 10765,
+                                      "females": 12048,
+                                      "pop_subcty": 22813
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "par": "Old Kampala",
+                      "par_code": 10102,
+                      "par_lat": 40.922326,
+                      "par_long": -72.637078,
+                      "par_map": "https://t.ly/TdToJ",
+                      "population": [
+                          {
+                              "year": 2014,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          },
+                          {
+                              "year": 2024,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "sub_cty": "Kawempe",
+              "parish": [
+                  {
+                      "par": "Bwaise I",
+                      "par_code": 51007,
+                      "par_lat": 40.922326,
+                      "par_long": -72.637078,
+                      "par_map": "https://t.ly/TdToJ",
+                      "population": [
+                          {
+                              "year": 2014,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          },
+                          {
+                              "year": 2024,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "sub_cty": "Nakawa",
+              "parish": [
+                  {
+                      "par": "Naguru I",
+                      "par_code": 10301,
+                      "par_lat": 40.922326,
+                      "par_long": -72.637078,
+                      "par_map": "https://t.ly/TdToJ",
+                      "population": [
+                          {
+                              "year": 2014,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          },
+                          {
+                              "year": 2024,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "sub_cty": "Makindye",
+              "parish": [
+                  {
+                      "par": "Makindye I",
+                      "par_code": 10401,
+                      "par_lat": 40.922326,
+                      "par_long": -72.637078,
+                      "par_map": "https://t.ly/TdToJ",
+                      "population": [
+                          {
+                              "year": 2014,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          },
+                          {
+                              "year": 2024,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "cty": "Rubaga",
+              "subcounty": [
+                  {
+                      "sub_cty": "Rubaga",
+                      "parish": [
+                          {
+                              "par": "Rubaga",
+                              "par_code": 10501,
+                              "par_lat": 40.922326,
+                              "par_long": -72.637078,
+                              "par_map": "https://t.ly/TdToJ",
+                              "population": [
+                                  {
+                                      "year": 2014,
+                                      "hh_numbs": 7201,
+                                      "hh_size": 4.3,
+                                      "males": 10765,
+                                      "females": 12048,
+                                      "pop_subcty": 22813
+                                  },
+                                  {
+                                      "year": 2024,
+                                      "hh_numbs": 7201,
+                                      "hh_size": 4.3,
+                                      "males": 10765,
+                                      "females": 12048,
+                                      "pop_subcty": 22813
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "par": "Ndeeba",
+                      "par_code": 10502,
+                      "par_lat": 40.922326,
+                      "par_long": -72.637078,
+                      "par_map": "https://t.ly/TdToJ",
+                      "population": [
+                          {
+                              "year": 2014,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          },
+                          {
+                              "year": 2024,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  }
+]

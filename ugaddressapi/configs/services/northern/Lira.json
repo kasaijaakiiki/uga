@@ -1,0 +1,219 @@
+[
+  {
+      "district": "Kagadi",
+      "dist_code": 510,
+      "dist_pop": 1200000,
+      "county": [
+          {
+              "cty": "Buyaga East",
+              "subcounty": [
+                  {
+                      "sub_cty": "Kagadi TC",
+                      "parish": [
+                          {
+                              "par": "Kagadi Central",
+                              "par_code": 51001,
+                              "par_lat": 40.922326,
+                              "par_long": -72.637078,
+                              "par_map": "https://t.ly/TdToJ",
+                              "population": [
+                                  {
+                                      "year": 2014,
+                                      "hh_numbs": 7201,
+                                      "hh_size": 4.3,
+                                      "males": 10765,
+                                      "females": 12048,
+                                      "pop_subcty": 22813
+                                  },
+                                  {
+                                      "year": 2024,
+                                      "hh_numbs": 7201,
+                                      "hh_size": 4.3,
+                                      "males": 10765,
+                                      "females": 12048,
+                                      "pop_subcty": 22813
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "par": "Kitegwa ward",
+                      "par_code": 51002,
+                      "par_lat": 40.922326,
+                      "par_long": -72.637078,
+                      "par_map": "https://t.ly/TdToJ",
+                      "population": [
+                          {
+                              "year": 2014,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          },
+                          {
+                              "year": 2024,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "sub_cty": "Kagadi",
+              "parish": [
+                  {
+                      "par": "Busirabo",
+                      "par_code": 51007,
+                      "par_lat": 40.922326,
+                      "par_long": -72.637078,
+                      "par_map": "https://t.ly/TdToJ",
+                      "population": [
+                          {
+                              "year": 2014,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          },
+                          {
+                              "year": 2024,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "sub_cty": "Kyenzige",
+              "parish": [
+                  {
+                      "par": "Kitema",
+                      "par_code": 51011,
+                      "par_lat": 40.922326,
+                      "par_long": -72.637078,
+                      "par_map": "https://t.ly/TdToJ",
+                      "population": [
+                          {
+                              "year": 2014,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          },
+                          {
+                              "year": 2024,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "sub_cty": "Kabamba",
+              "parish": [
+                  {
+                      "par": "Kabamba",
+                      "par_code": 51015,
+                      "par_lat": 40.922326,
+                      "par_long": -72.637078,
+                      "par_map": "https://t.ly/TdToJ",
+                      "population": [
+                          {
+                              "year": 2014,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          },
+                          {
+                              "year": 2024,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "cty": "Buyaga West",
+              "subcounty": [
+                  {
+                      "sub_cty": "Muhorro TC",
+                      "parish": [
+                          {
+                              "par": "Nyamiti Ward",
+                              "par_code": 51040,
+                              "par_lat": 40.922326,
+                              "par_long": -72.637078,
+                              "par_map": "https://t.ly/TdToJ",
+                              "population": [
+                                  {
+                                      "year": 2014,
+                                      "hh_numbs": 7201,
+                                      "hh_size": 4.3,
+                                      "males": 10765,
+                                      "females": 12048,
+                                      "pop_subcty": 22813
+                                  },
+                                  {
+                                      "year": 2024,
+                                      "hh_numbs": 7201,
+                                      "hh_size": 4.3,
+                                      "males": 10765,
+                                      "females": 12048,
+                                      "pop_subcty": 22813
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "par": "Karuswiiga Ward",
+                      "par_code": 51040,
+                      "par_lat": 40.922326,
+                      "par_long": -72.637078,
+                      "par_map": "https://t.ly/TdToJ",
+                      "population": [
+                          {
+                              "year": 2014,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          },
+                          {
+                              "year": 2024,
+                              "hh_numbs": 7201,
+                              "hh_size": 4.3,
+                              "males": 10765,
+                              "females": 12048,
+                              "pop_subcty": 22813
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  }
+]
