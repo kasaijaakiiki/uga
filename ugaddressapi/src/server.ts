@@ -4,6 +4,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import bodyParser from 'body-parser';
+import homeRoute from "./routes/home.route"
 
 //Adding Routes layouts
 
@@ -29,7 +30,7 @@ app.use(helmet());
 app.use(bodyParser.json());
 
 //Calling your Routes Layout
-//app.use('/api/v1', general);
+app.use('/api/v1', homeRoute);
 
 
 //Implementation of CORS middleware
