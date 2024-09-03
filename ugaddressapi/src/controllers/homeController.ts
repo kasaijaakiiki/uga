@@ -43,4 +43,24 @@ export class HomeController {
             return ResponseClass.sendErrorResponse(res, 500, "An Error Occurred!");
         }
     }
+
+    static async GetRegionDataInformations(req: Request, res: Response) {
+        try {
+            // Define the path to your JSON file
+            const { regionName, fileName } = req.params;
+            const filePath = path.join(__dirname, `../configs/services/${regionName}/${fileName}.json`);
+
+            console.log(filePath);
+            // Read the JSON file
+            const data = await fs.readFile(filePath, (err, _data: any) => {
+                if (err) throw err;
+                const response = JSON.parse(_data);
+                //console.log(response)
+                return ResponseClass.sendSuccessResponse(res, 200, "JSON files retrieved successfully", response);
+            }); // Correctly specifying encoding
+        } catch (error) {
+            console.error(error); // Log the error for debugging
+            return ResponseClass.sendErrorResponse(res, 500, "An Error Occurred!");
+        }
+    }
 }

@@ -13,5 +13,10 @@ router.get(
         await HomeController.GetMainRegionByRegionName(req, res);
     })
 );
+router.get(
+    "/home/get_region/:regionName/:fileName", asyncMiddleware(async (req: Request, res: Response) => {
+        await HomeController.GetRegionDataInformations(req, res);
+    })
+);
 
 export default router;
