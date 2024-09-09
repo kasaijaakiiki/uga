@@ -19,4 +19,10 @@ router.get(
     })
 );
 
+router.get(
+    "/home/search/:search", asyncMiddleware(async (req: Request, res: Response) => {
+        await HomeController.SearchAllRegions(req, res);
+    })
+);
+
 export default router;
