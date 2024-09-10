@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class HomeService {
-  baseUrl: string = 'https://uga-w4r7.onrender.com/api/v1/';
+  baseUrl: string = 'https://uga-1.onrender.com/api/v1/';
 
   constructor(private httpClient: HttpClient) { }
   getRegions(): Observable<any> {
