@@ -1,0 +1,32 @@
+
+.footer {
+  margin-top: 100px;
+  background: #000;
+}
+li {
+  font: verdana;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: antiquewhite;
+}
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  align-items: center;
+  gap: 100px;
+  flex-flow: row;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}

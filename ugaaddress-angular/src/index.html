@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Runyoro dictionary" />
+    <meta
+      name="keywords"
+      content="Katondogorozi, Runyakitara dictionary, Runyoro dictionary, Rutooro dictionary, Runyakore dictionary, rukiga dictionary, Rugungu dictionary, Ruruuli dictionary, Rutuku dictionary, Rusongora dictionary, Rutagwenda dictionary, Banyaruguru, Ruhororo dictionary, Ruyambo dictionary, Ruhaya dictionary, Ruziba dictionary, Ruzinza dictionary, Ruhema dictionary, Runyara dictionary, Rutuku dictionary, Lunyala dictionary"
+    />
+    <meta
+      name="keywords"
+      content="Katondogorozi, Runyakitara dictionary, Runyoro dictionary, Rutooro dictionary, Runyakore dictionary, rukiga dictionary, Banyoro, Batooro, Bagungu, Baruuli, Banyara, Batuku, Basongora, Batagwenda, Banyaruguru, Banyankore, Bakiga, Bahororo, Bahima, Banyambo, Bahaya, Baziba, Bazinza, Batuku and Bahema"
+    />
+    <meta name="author" content="Kugonza Akiiki" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Runyoro-Rutooro Dictionary</title>
+
+    <!--<h1>Runyoro-Rutooro Dictionary</h1>-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-137717177-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-137717177-1");
+    </script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.1.4.js"></script>
+    <script type="text/javascript" src="js/vendor/toArrayFilter.js"></script>
+    <link
+      href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/words.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <script
+      src="https://code.angularjs.org/1.2.28/angular-route.min.js"
+      type="text/javascript"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css"
+    />
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/accordion.js"></script>
+    <script type="text/javascript" src="js/lower.js"></script>
+
+    <script type="text/javascript">
+      $(function () {
+        $(".dial").on("click", function () {
+          var text = $("#filterMe");
+          $("#destination").text.val(function () {
+            return text.val();
+          });
+        });
+      });
+    </script>
+
+    <!-- Audio Function -->
+    <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.load();
+        audio.play();
+      }
+    </script>
+  </head>
+  <body>
+    <app-root></app-root>
+    <!-- Modules -->
+    <script type="text/javascript" src="js/app.js"></script>
+
+    <!-- Controllers -->
+    <script
+      type="text/javascript"
+      src="js/controllers/EnglishController.js"
+    ></script>
+
+    <!-- Services -->
+    <!--<script type="text/javascript" src="js/"></script>-->
+  </body>
+</html>
