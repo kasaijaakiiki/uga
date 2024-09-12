@@ -49,7 +49,7 @@
               </ol>
             </li>
             <li class="tree-item" (click)="toggleDetails('population-details')">
-              Population Detail:
+              Population Details:
               <strong>{{ regionDetails?.population?.length ?? 0 }}</strong>
               <ul id="population-details" class="hidden">
                 <li *ngFor="let population of regionDetails?.population">
@@ -81,17 +81,7 @@
                         <li *ngFor="let item of item?.subcounty">
                           <ul>
                             <li>Sub Cty: {{ item?.sub_cty }}</li>
-                            <li>
-                              Location:
-                              <ol class="location-info">
-                                <li>
-                                  Longitude:
-                                  {{ item?.location?.Longitude }}
-                                </li>
-                                <li>
-                                  Latitude: {{ item?.location?.Latitude }}
-                                </li>
-                              </ol>
+                            <li>Location: {{ item?.location?.location }}</li>
                             </li>
                             <li>
                               <div
@@ -138,18 +128,7 @@
                                     <li>Par Code: {{ ite?.par_code }}</li>
                                     <li>Mhhi: {{ ite?.mhhi }}</li>
                                     <li>Par Pop: {{ ite?.par_pop }}</li>
-                                    <li>
-                                      Location:
-                                      <ol class="location-info">
-                                        <li>
-                                          Longitude:
-                                          {{ ite?.location?.Longitude }}
-                                        </li>
-                                        <li>
-                                          Latitude:
-                                          {{ ite?.location?.Latitude }}
-                                        </li>
-                                      </ol>
+                                    <li>Location: {{ item?.location?.location }}</li>
                                     </li>
                                   </ul>
                                 </li>
@@ -177,15 +156,14 @@
                                 <tr>
                                   <th>Candidate</th>
                                   <th>Image</th>
+                                  <th>PParty</th>
                                   <th>Votes</th>
                                   <th>Year</th>
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr *ngIf="election?.candidate?.indep">
-                                  <td data-label="Candidate">
-                                    {{ election?.candidate?.indep }}
-                                  </td>
+                                  <td data-label="Candidate">{{ election?.candidate?.indep }}</td>
                                   <td data-label="Image">
                                     <img
                                       [src]="
@@ -194,12 +172,9 @@
                                       [alt]="election?.candidate?.indep"
                                     />
                                   </td>
-                                  <td data-label="Votes">
-                                    {{ election?.votes?.indep }}
-                                  </td>
-                                  <td data-label="Year">
-                                    {{ election?.year }}
-                                  </td>
+                                  <td data-label="Votes">{{ election?.pparty?.indep }}</td>
+                                  <td data-label="Votes">{{ election?.votes?.indep }}</td>
+                                  <td data-label="Year">{{ election?.year }}</td>
                                 </tr>
                                 <tr *ngIf="election?.candidate?.fdc">
                                   <td data-label="Candidate">
@@ -210,6 +185,9 @@
                                       [src]="'/assets/' + election?.images?.fdc"
                                       [alt]="election?.candidate?.fdc"
                                     />
+                                  </td>
+                                  <td data-label="Votes">
+                                    {{ election?.pparty?.fdc }}
                                   </td>
                                   <td data-label="Votes">
                                     {{ election?.votes?.fdc }}
@@ -231,6 +209,9 @@
                                     />
                                   </td>
                                   <td data-label="Votes">
+                                    {{ election?.pparty?.indep1 }}
+                                  </td>
+                                  <td data-label="Votes">
                                     {{ election?.votes?.indep1 }}
                                   </td>
                                   <td data-label="Year">
@@ -246,6 +227,9 @@
                                       [src]="'/assets/' + election?.images?.nrm"
                                       [alt]="election?.candidate?.nrm"
                                     />
+                                  </td>
+                                  <td data-label="Votes">
+                                    {{ election?.pparty?.nrm }}
                                   </td>
                                   <td data-label="Votes">
                                     {{ election?.votes?.nrm }}
@@ -265,6 +249,9 @@
                                     />
                                   </td>
                                   <td data-label="Votes">
+                                    {{ election?.pparty?.nup }}
+                                  </td>
+                                  <td data-label="Votes">
                                     {{ election?.votes?.nup }}
                                   </td>
                                   <td data-label="Year">
@@ -280,6 +267,9 @@
                                       [src]="'/assets/' + election?.images?.ant"
                                       [alt]="election?.candidate?.ant"
                                     />
+                                  </td>
+                                  <td data-label="Votes">
+                                    {{ election?.pparty?.ant }}
                                   </td>
                                   <td data-label="Votes">
                                     {{ election?.votes?.ant }}
@@ -299,6 +289,9 @@
                                     />
                                   </td>
                                   <td data-label="Votes">
+                                    {{ election?.pparty?.upc }}
+                                  </td>
+                                  <td data-label="Votes">
                                     {{ election?.votes?.upc }}
                                   </td>
                                   <td data-label="Year">
@@ -314,6 +307,9 @@
                                       [src]="'/assets/' + election?.images?.dp"
                                       [alt]="election?.candidate?.dp"
                                     />
+                                  </td>
+                                  <td data-label="Votes">
+                                    {{ election?.pparty?.dp }}
                                   </td>
                                   <td data-label="Votes">
                                     {{ election?.votes?.dp }}
@@ -333,6 +329,9 @@
                                     />
                                   </td>
                                   <td data-label="Votes">
+                                    {{ election?.pparty?.ndf }}
+                                  </td>
+                                  <td data-label="Votes">
                                     {{ election?.votes?.ndf }}
                                   </td>
                                   <td data-label="Year">
@@ -348,6 +347,9 @@
                                       [src]="'/assets/' + election?.images?.jf"
                                       [alt]="election?.candidate?.jf"
                                     />
+                                  </td>
+                                  <td data-label="Votes">
+                                    {{ election?.pparty?.jf }}
                                   </td>
                                   <td data-label="Votes">
                                     {{ election?.votes?.jf }}
