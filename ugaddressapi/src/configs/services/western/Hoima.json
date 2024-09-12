@@ -4,10 +4,7 @@
     "dist_code": 513,
     "dist_size": 1414.7,
     "city": "Hoima",
-    "location": {
-      "Latitude": 1.43314,
-      "Longitude": 31.35241
-    },
+    "location": "https://tinyurl.com/mr2az3bv",
     "wmp_elections": [
       {
         "year": 2016,
@@ -22,6 +19,12 @@
           "fdc": "img/hoima/rnabisere.jpg",
           "indep1": "img/hoima/rbiraaba.jpg",
           "nrm": "img/hoima/tkaahwa.jpg"
+        },
+        "pparty": {
+          "indep": "Indep",
+          "fdc": "Fdc",
+          "indep1": "Indep",
+          "nrm": "Nrm"
         },
         "votes": {
           "indep": 43038,
@@ -46,6 +49,13 @@
           "ant": "img/hoima/vmulindwa.jpg",
           "fdc": "img/hoima/rnabisere.jpg"
         },
+        "pparty": {
+          "nrm": "Nrm",
+          "indep": "Indep",
+          "nup": "Nup",
+          "ant": "Ant",
+          "fdc": "Fdc"
+        },
         "votes": {
           "nrm": 28426,
           "indep": 18271,
@@ -69,6 +79,12 @@
           "nrm": "img/hoima/vkabasindi.jpg",
           "indep": "img/hoima/pnabisubi.jpg",
           "nup": "img/hoima/bkiiza.jpg"
+        },
+        "pparty": {
+          "fdc": "Fdc",
+          "nrm": "Nrm",
+          "indep": "Indep",
+          "nup": "Nup"
         },
         "votes": {
           "fdc": 18137,
@@ -96,6 +112,14 @@
           "ndf": "img/ckaruhanga.jpg",
           "jf": "img/mkibirige.jpg",
           "nrm": "img/kmuseveni.jpg"
+        },
+        "paprty": {
+          "upc": "Upc",
+          "fdc": "Fdc",
+          "dp": "Dp",
+          "ndf": "Ndf",
+          "jf": "Jf",
+          "nrm": "Nrm"
         },
         "votes": {
           "upc": 239,
@@ -125,6 +149,13 @@
           "upc": "img/mobote.jpg",
           "dp": "img/jssebaana.jpg",
           "nrm": "img/kmuseveni.jpg"
+        },
+        "paprty": {
+          "indep": "Indep",
+          "fdc": "Fdc",
+          "upc": "Upc",
+          "dp": "Dp",
+          "nrm": "Nrm"
         },
         "votes": {
           "indep": 663,
@@ -159,6 +190,16 @@
           "upc": "img/ootuunu.jpg",
           "indep": "img/lmukaaku.jpg",
           "nrm": "img/kmuseveni.jpg"
+        },
+        "pparty": {
+          "pdp": "Pdp",
+          "fdc": "Fdc",
+          "ufa": "Ufa",
+          "pp": "Pp",
+          "dp": "Dp",
+          "upc": "Upc",
+          "indep": "Indep",
+          "nrm": "Nrm"
         },
         "votes": {
           "pdp": 267,
@@ -196,6 +237,16 @@
           "indep2": "img/jmabirizi.jpg",
           "indep3": "img/mkyalya.jpg",
           "nrm": "img/kmuseveni.jpg"
+        },
+        "pparty": {
+          "pdp": "Pdp",
+          "indep": "Indep",
+          "indep1": "Indep",
+          "fpu": "Fpu",
+          "fdc": "Fdc",
+          "indep2": "Indep",
+          "indep3": "Indep3",
+          "nrm": "Nrm"
         },
         "votes": {
           "pdp": 578,
@@ -239,6 +290,19 @@
           "indep4": "img/fmwesigye.jpg",
           "indep5": "img/htumukunde.jpg",
           "nrm": "img/kmuseveni.jpg"
+        },
+        "pparty": {
+          "fdc": "Fdc",
+          "indep": "Indep",
+          "indep1": "Indep",
+          "indep2": "Indep",
+          "nup": "Nup",
+          "dp": "Dp",
+          "indep3": "Indep",
+          "ant": "Ant",
+          "indep4": "Indep",
+          "indep5": "Indep",
+          "nrm": "Nrm"
         },
         "votes": {
           "fdc": 345,
@@ -330,6 +394,13 @@
               "indep": "img/hoima/hbisoborwa.jpg",
               "indep1": "img/hoima/pinsingoma.jpg"
             },
+            "pparty": {
+              "fdc": "Fdc",
+              "nrm": "Nrm",
+              "upc": "Upc",
+              "indep": "Indep",
+              "indep1": "Indep"
+            },
             "votes": {
               "fdc": 3878,
               "nrm": 13235,
@@ -351,6 +422,12 @@
               "nrm": "img/hoima/lbategeka.jpg",
               "fdc": "img/hoima/pbaguma.jpg",
               "indep1": "img/hoima/stumusiime.jpg"
+            },
+            "pparty": {
+              "indep": "Indep",
+              "nrm": "Nrm",
+              "fdc": "Fdc",
+              "indep1": "Indep"
             },
             "votes": {
               "indep": 2486,
@@ -374,6 +451,13 @@
               "nup": "img/hoima/maguuda.jpg",
               "indep1": "img/hoima/dmpabaisi.jpg",
               "fdc": "img/hoima/prwamiti.jpg"
+            },
+            "pparty": {
+              "indep": "Indep",
+              "nrm": "Nrm",
+              "nup": "Nup",
+              "indep1": "Indep",
+              "fdc": "Fdc"
             },
             "votes": {
               "indep": 9097,
@@ -401,10 +485,6 @@
         "subcounty": [
           {
             "sub_cty": "Kahoora",
-            "location": {
-              "Latitude": 0.368889,
-              "Longitude": 32.940278
-            },
             "population": [
               {
                 "year": 2014,
@@ -428,40 +508,24 @@
                 "par": "Central Ward",
                 "par_code": 51301,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39872,
-                  "Longitude": 32.93587
-                }
+                "par_pop": 0
               },
               {
                 "par": "Northern Ward",
                 "par_code": 51302,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3809,
-                  "Longitude": 32.94127
-                }
+                "par_pop": 0
               },
               {
                 "par": "Southern Ward",
                 "par_code": 51303,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               }
             ]
           },
           {
             "sub_cty": "Busiisi",
-            "location": {
-              "Latitude": 0.368889,
-              "Longitude": 32.940278
-            },
             "population": [
               {
                 "year": 2014,
@@ -485,50 +549,30 @@
                 "par": "Kibingo",
                 "par_code": 51304,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39872,
-                  "Longitude": 32.93587
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kasingo",
                 "par_code": 51305,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3809,
-                  "Longitude": 32.94127
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kihuukya",
                 "par_code": 51306,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kiduuma",
                 "par_code": 51307,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               }
             ]
           },
           {
             "sub_cty": "Mparo",
-            "location": {
-              "Latitude": 0.368889,
-              "Longitude": 32.940278
-            },
             "population": [
               {
                 "year": 2014,
@@ -552,51 +596,31 @@
                 "par": "Bwikya",
                 "par_code": 51308,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39872,
-                  "Longitude": 32.93587
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kicwamba",
                 "par_code": 51309,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3809,
-                  "Longitude": 32.94127
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kiheemba",
                 "par_code": 51310,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               },
               {
                 "par": "Nyakambugu",
                 "par_code": 51311,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kyentale",
                 "par_code": 51312,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               }
             ]
           }
@@ -634,6 +658,13 @@
               "indep1": "img/hoima/sbyakagaba.jpg",
               "indep2": "img/hoima/gbeeraheru.jpg"
             },
+            "pparty": {
+              "nrm": "Nrm",
+              "ant": "Ant",
+              "indep":"Indep",
+              "indep1": "Indep",
+              "indep2": "Indep"
+            },
             "votes": {
               "nrm": 6369,
               "ant": 6212,
@@ -660,10 +691,6 @@
         "subcounty": [
           {
             "sub_cty": "Bujumbura",
-            "location": {
-              "Latitude": 0.368889,
-              "Longitude": 32.940278
-            },
             "population": [
               {
                 "year": 2014,
@@ -687,61 +714,37 @@
                 "par": "Kihombooza",
                 "par_code": 51313,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39872,
-                  "Longitude": 32.93587
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kyesiiga",
                 "par_code": 51314,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3809,
-                  "Longitude": 32.94127
-                }
+                "par_pop": 0
               },
               {
                 "par": "Karongo",
                 "par_code": 51315,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               },
               {
                 "par": "Bujuura",
                 "par_code": 51316,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               },
               {
                 "par": "Western Ward",
                 "par_code": 51317,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               },
               {
                 "par": "Buhuura",
                 "par_code": 51318,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               }
             ]
           }
@@ -792,6 +795,11 @@
               "fdc": "img/hoima/hmunyomo.jpg",
               "indep": "img/hoima/mbyahuka.jpg"
             },
+            "pparty": {
+              "nrm": "Nrm",
+              "fdc": "Fdc",
+              "indep": "Indep"
+            },
             "votes": {
               "nrm": 11906,
               "fdc": 2269,
@@ -811,6 +819,12 @@
               "indep": "img/hoima/gbihemaiso.jpg",
               "nup": "img/hoima/ragaba.jpg",
               "indep1": "img/hoima/mbyahuka.jpg"
+            },
+            "pparty": {
+              "nrm": "Nrm",
+              "indep": "Indep",
+              "nup": "Nup",
+              "indep1": "Indep"
             },
             "votes": {
               "nrm": 9633,
@@ -837,10 +851,6 @@
         "subcounty": [
           {
             "sub_cty": "Kapaapi",
-            "location": {
-              "Latitude": 0.368889,
-              "Longitude": 32.940278
-            },
             "population": [
               {
                 "year": 2014,
@@ -864,40 +874,24 @@
                 "par": "Kyamukwenda",
                 "par_code": 51319,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39872,
-                  "Longitude": 32.93587
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kibengeya",
                 "par_code": 51320,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3809,
-                  "Longitude": 32.94127
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kapaapi",
                 "par_code": 51321,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               }
             ]
           },
           {
             "sub_cty": "Bombo",
-            "location": {
-              "Latitude": 9.96233,
-              "Longitude": 49.80404
-            },
             "population": [
               {
                 "year": 2014,
@@ -921,60 +915,36 @@
                 "par": "Marongo",
                 "par_code": 51322,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Buhirigi",
                 "par_code": 51323,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Hanga",
                 "par_code": 51324,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kanyiira",
                 "par_code": 51325,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Bwikya",
                 "par_code": 51326,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               }
             ]
           },
           {
             "sub_cty": "Kisukuma",
-            "location": {
-              "Latitude": 9.96233,
-              "Longitude": 49.80404
-            },
             "population": [
               {
                 "year": 2014,
@@ -998,60 +968,36 @@
                 "par": "Bukona",
                 "par_code": 51327,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Haibale",
                 "par_code": 51328,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kabatindule",
                 "par_code": 51329,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Ndaragi",
                 "par_code": 51330,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kisukuma",
                 "par_code": 51331,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               }
             ]
           },
           {
             "sub_cty": "Kigorobya",
-            "location": {
-              "Latitude": 9.96233,
-              "Longitude": 49.80404
-            },
             "population": [
               {
                 "year": 2014,
@@ -1075,30 +1021,18 @@
                 "par": "Hanga",
                 "par_code": 51332,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kyabisagazi",
                 "par_code": 51333,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               }
             ]
           },
           {
             "sub_cty": "Kigorobya TC",
-            "location": {
-              "Latitude": 9.96233,
-              "Longitude": 49.80404
-            },
             "population": [
               {
                 "year": 2014,
@@ -1122,50 +1056,30 @@
                 "par": "Northern Ward",
                 "par_code": 51334,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Northern Ward",
                 "par_code": 51335,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "South East Ward",
                 "par_code": 51336,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "South West Ward",
                 "par_code": 51337,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               }
             ]
           },
           {
             "sub_cty": "Kijongo",
-            "location": {
-              "Latitude": 9.96233,
-              "Longitude": 49.80404
-            },
             "population": [
               {
                 "year": 2014,
@@ -1189,31 +1103,19 @@
                 "par": "Karungu",
                 "par_code": 51338,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kijongo",
                 "par_code": 51339,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kigomba",
                 "par_code": 51340,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               }
             ]
           }
@@ -1235,6 +1137,12 @@
               "fdc": "img/hoima/pbaguma.jpg",
               "indep": "img/hoima/bkaija.jpg",
               "indep1": "img/hoima/jntegeka.jpg"
+            },
+            "pparty": {
+              "nrm": "Nrm",
+              "fdc": "Fdc",
+              "indep": "Indep",
+              "indp1": "Indep"
             },
             "votes": {
               "nrm": 42691,
@@ -1258,6 +1166,13 @@
               "indep": "img/hoima/stumusiime.jpg",
               "indep1": "img/hoima/mkyakadongo.jpg",
               "nrm": "img/hoima/jrwebembera.jpg"
+            },
+            "pparty": {
+              "fdc": "Fdc",
+              "ppp": "Ppp",
+              "indep": "Indep",
+              "indep1": "Indep",
+              "nrm": "Nrm"
             },
             "votes": {
               "fdc": 8543,
@@ -1314,10 +1229,6 @@
         "subcounty": [
           {
             "sub_cty": "Buhanika",
-            "location": {
-              "Latitude": 0.368889,
-              "Longitude": 32.940278
-            },
             "population": [
               {
                 "year": 2014,
@@ -1341,70 +1252,42 @@
                 "par": "Katereiga",
                 "par_code": 51341,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39872,
-                  "Longitude": 32.93587
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kikerege",
                 "par_code": 51342,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3809,
-                  "Longitude": 32.94127
-                }
+                "par_pop": 0
               },
               {
                 "par": "Butema",
                 "par_code": 51343,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kitoonya",
                 "par_code": 51344,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kitorogya",
                 "par_code": 51345,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kyohairwe",
                 "par_code": 51346,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.3738128,
-                  "Longitude": 32.7909833
-                }
+                "par_pop": 0
               }
             ]
           },
           {
             "sub_cty": "Buseruka",
-            "location": {
-              "Latitude": 9.96233,
-              "Longitude": 49.80404
-            },
             "population": [
               {
                 "year": 2014,
@@ -1428,40 +1311,24 @@
                 "par": "Nyakabingo",
                 "par_code": 51347,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Tonya",
                 "par_code": 51348,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Rwentale",
                 "par_code": 51349,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               }
             ]
           },
           {
             "sub_cty": "Bulindi TC",
-            "location": {
-              "Latitude": 9.96233,
-              "Longitude": 49.80404
-            },
             "population": [
               {
                 "year": 2014,
@@ -1485,40 +1352,24 @@
                 "par": "Central Ward",
                 "par_code": 51350,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kakindo Ward",
                 "par_code": 51351,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "TKibaire Ward",
                 "par_code": 51352,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               }
             ]
           },
           {
             "sub_cty": "Kitoba",
-            "location": {
-              "Latitude": 9.96233,
-              "Longitude": 49.80404
-            },
             "population": [
               {
                 "year": 2014,
@@ -1542,78 +1393,46 @@
                 "par": "Birungu",
                 "par_code": 51353,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Bulyango",
                 "par_code": 51354,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kiganja",
-                "par_code": 51355,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_code": 51355
               },
               {
                 "par": "Kibanjwa",
                 "par_code": 51356,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kiragura",
                 "par_code": 51357,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kiryangobe",
                 "par_code": 51358,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Budaka",
                 "par_code": 51359,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               }
             ]
           },
           {
             "sub_cty": "Kyabigambire",
-            "location": {
-              "Latitude": 9.96233,
-              "Longitude": 49.80404
-            },
             "population": [
               {
                 "year": 2014,
@@ -1637,30 +1456,18 @@
                 "par": "Kibugubya",
                 "par_code": 51360,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kisabagwa",
                 "par_code": 51361,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               }
             ]
           },
           {
             "sub_cty": "Kabaale",
-            "location": {
-              "Latitude": 9.96233,
-              "Longitude": 49.80404
-            },
             "population": [
               {
                 "year": 2014,
@@ -1684,50 +1491,30 @@
                 "par": "Kabaale",
                 "par_code": 51362,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Nzorobi",
                 "par_code": 51363,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kigaaga",
                 "par_code": 51364,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Mbegu",
                 "par_code": 51365,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               }
             ]
           },
           {
             "sub_cty": "Buraru",
-            "location": {
-              "Latitude": 9.96233,
-              "Longitude": 49.80404
-            },
             "population": [
               {
                 "year": 2014,
@@ -1751,41 +1538,25 @@
                 "par": "Busanga",
                 "par_code": 51366,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Kyabanati",
                 "par_code": 51367,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Buyanja",
                 "par_code": 51368,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               },
               {
                 "par": "Buraru",
                 "par_code": 51369,
                 "mhhi": 0,
-                "par_pop": 0,
-                "location": {
-                  "Latitude": 0.39235,
-                  "Longitude": 32.93545
-                }
+                "par_pop": 0
               }
             ]
           }
