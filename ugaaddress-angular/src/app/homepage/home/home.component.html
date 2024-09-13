@@ -47,13 +47,7 @@
                 <li>District Code: {{ regionDetails?.dist_code }}</li>
                 <li>District Size: {{ regionDetails?.dist_size }}</li>
                 <li>City : {{ regionDetails?.city }}</li>
-                <li>
-                  Location
-                  <ol class="location-info">
-                    <li>Longitude: {{ regionDetails?.location?.Longitude }}</li>
-                    <li>Latitude: {{ regionDetails?.location?.Latitude }}</li>
-                  </ol>
-                </li>
+                <li>Location : <a target = '_blank' [href]="regionDetails?.location"> {{regionDetails?.location}}</a></li>
               </ol>
             </li>
             <li class="tree-item" (click)="toggleDetails('population-details')">
@@ -97,7 +91,7 @@
                                   )
                                 "
                               >
-                                Sub County Population {{ item?.sub_cty }}:
+                                Sub Cty Pop: {{ item?.sub_cty }}
                                 <strong>{{ item?.subcounty?.length }}</strong>
                               </div>
                               <ul>
@@ -160,15 +154,14 @@
                                 <tr>
                                   <th>Candidate</th>
                                   <th>Image</th>
+                                  <th>PParty</th>
                                   <th>Votes</th>
                                   <th>Year</th>
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr *ngIf="election?.candidate?.indep">
-                                  <td data-label="Candidate">
-                                    {{ election?.candidate?.indep }}
-                                  </td>
+                                  <td data-label="Candidate">{{ election?.candidate?.indep }}</td>
                                   <td data-label="Image">
                                     <img
                                       [src]="
@@ -177,34 +170,24 @@
                                       [alt]="election?.candidate?.indep"
                                     />
                                   </td>
-                                  <td data-label="Votes">
-                                    {{ election?.votes?.indep }}
-                                  </td>
-                                  <td data-label="Year">
-                                    {{ election?.year }}
-                                  </td>
+                                  <td data-label="PParty">Indep</td>
+                                  <td data-label="Votes">{{ election?.votes?.indep }}</td>
+                                  <td data-label="Year">{{ election?.year }}</td>
                                 </tr>
                                 <tr *ngIf="election?.candidate?.fdc">
-                                  <td data-label="Candidate">
-                                    {{ election?.candidate?.fdc }}
-                                  </td>
+                                  <td data-label="Candidate">{{ election?.candidate?.fdc }}</td>
                                   <td data-label="Image">
                                     <img
                                       [src]="'/assets/' + election?.images?.fdc"
                                       [alt]="election?.candidate?.fdc"
                                     />
                                   </td>
-                                  <td data-label="Votes">
-                                    {{ election?.votes?.fdc }}
-                                  </td>
-                                  <td data-label="Year">
-                                    {{ election?.year }}
-                                  </td>
+                                  <td data-label="PParty">Fdc</td>
+                                  <td data-label="Votes">{{ election?.votes?.fdc }}</td>
+                                  <td data-label="Year">{{ election?.year }}</td>
                                 </tr>
                                 <tr *ngIf="election?.candidate?.indep1">
-                                  <td data-label="Candidate">
-                                    {{ election?.candidate?.indep1 }}
-                                  </td>
+                                  <td data-label="Candidate">{{ election?.candidate?.indep1 }}</td>
                                   <td data-label="Image">
                                     <img
                                       [src]="
@@ -213,131 +196,93 @@
                                       [alt]="election?.candidate?.indep1"
                                     />
                                   </td>
-                                  <td data-label="Votes">
-                                    {{ election?.votes?.indep1 }}
-                                  </td>
-                                  <td data-label="Year">
-                                    {{ election?.year }}
-                                  </td>
+                                  <td data-label="PParty">Indep</td>
+                                  <td data-label="Votes">{{ election?.votes?.indep1 }}</td>
+                                  <td data-label="Year">{{ election?.year }}</td>
                                 </tr>
                                 <tr *ngIf="election?.candidate?.nrm">
-                                  <td data-label="Candidate">
-                                    {{ election?.candidate?.nrm }}
-                                  </td>
+                                  <td data-label="Candidate">{{ election?.candidate?.nrm }}</td>
                                   <td data-label="Image">
                                     <img
                                       [src]="'/assets/' + election?.images?.nrm"
                                       [alt]="election?.candidate?.nrm"
                                     />
                                   </td>
-                                  <td data-label="Votes">
-                                    {{ election?.votes?.nrm }}
-                                  </td>
-                                  <td data-label="Year">
-                                    {{ election?.year }}
-                                  </td>
+                                  <td data-label="PParty">Nrm</td>
+                                  <td data-label="Votes">{{ election?.votes?.nrm }}</td>
+                                  <td data-label="Year">{{ election?.year }}</td>
                                 </tr>
                                 <tr *ngIf="election?.candidate?.nup">
-                                  <td data-label="Candidate">
-                                    {{ election?.candidate?.nup }}
-                                  </td>
+                                  <td data-label="Candidate">{{ election?.candidate?.nup }}</td>
                                   <td data-label="Image">
                                     <img
                                       [src]="'/assets/' + election?.images?.nup"
                                       [alt]="election?.candidate?.nup"
                                     />
                                   </td>
-                                  <td data-label="Votes">
-                                    {{ election?.votes?.nup }}
-                                  </td>
-                                  <td data-label="Year">
-                                    {{ election?.year }}
-                                  </td>
+                                  <td data-label="PParty">Nup</td>
+                                  <td data-label="Votes">{{ election?.votes?.nup }}</td>
+                                  <td data-label="Year">{{ election?.year }}</td>
                                 </tr>
                                 <tr *ngIf="election?.candidate?.ant">
-                                  <td data-label="Candidate">
-                                    {{ election?.candidate?.ant }}
-                                  </td>
+                                  <td data-label="Candidate">{{ election?.candidate?.ant }}</td>
                                   <td data-label="Image">
                                     <img
                                       [src]="'/assets/' + election?.images?.ant"
                                       [alt]="election?.candidate?.ant"
                                     />
                                   </td>
-                                  <td data-label="Votes">
-                                    {{ election?.votes?.ant }}
-                                  </td>
-                                  <td data-label="Year">
-                                    {{ election?.year }}
-                                  </td>
+                                  <td data-label="PParty">Ant</td>
+                                  <td data-label="Votes">{{ election?.votes?.ant }}</td>
+                                  <td data-label="Year">{{ election?.year }}</td>
                                 </tr>
                                 <tr *ngIf="election?.candidate?.upc">
-                                  <td data-label="Candidate">
-                                    {{ election?.candidate?.upc }}
-                                  </td>
+                                  <td data-label="Candidate">{{ election?.candidate?.upc }}</td>
                                   <td data-label="Image">
                                     <img
                                       [src]="'/assets/' + election?.images?.upc"
                                       [alt]="election?.candidate?.upc"
                                     />
                                   </td>
-                                  <td data-label="Votes">
-                                    {{ election?.votes?.upc }}
-                                  </td>
-                                  <td data-label="Year">
-                                    {{ election?.year }}
-                                  </td>
+                                  <td data-label="PParty">Upc</td>
+                                  <td data-label="Votes">{{ election?.votes?.upc }}</td>
+                                  <td data-label="Year">{{ election?.year }}</td>
                                 </tr>
                                 <tr *ngIf="election?.candidate?.dp">
-                                  <td data-label="Candidate">
-                                    {{ election?.candidate?.dp }}
-                                  </td>
+                                  <td data-label="Candidate">{{ election?.candidate?.dp }}</td>
                                   <td data-label="Image">
                                     <img
                                       [src]="'/assets/' + election?.images?.dp"
                                       [alt]="election?.candidate?.dp"
                                     />
                                   </td>
-                                  <td data-label="Votes">
-                                    {{ election?.votes?.dp }}
-                                  </td>
-                                  <td data-label="Year">
-                                    {{ election?.year }}
-                                  </td>
+                                  <td data-label="PParty">Dp</td>
+                                  <td data-label="Votes">{{ election?.votes?.dp }}</td>
+                                  <td data-label="Year">{{ election?.year }}</td>
                                 </tr>
                                 <tr *ngIf="election?.candidate?.ndf">
-                                  <td data-label="Candidate">
-                                    {{ election?.candidate?.ndf }}
-                                  </td>
+                                  <td data-label="Candidate">{{ election?.candidate?.ndf }}</td>
                                   <td data-label="Image">
                                     <img
                                       [src]="'/assets/' + election?.images?.ndf"
                                       [alt]="election?.candidate?.ndf"
                                     />
                                   </td>
-                                  <td data-label="Votes">
-                                    {{ election?.votes?.ndf }}
-                                  </td>
-                                  <td data-label="Year">
-                                    {{ election?.year }}
-                                  </td>
+                                  <td data-label="PParty">Ndf</td>
+                                  <td data-label="Votes">{{ election?.votes?.ndf }}</td>
+                                  <td data-label="Year">{{ election?.year }}</td>
                                 </tr>
                                 <tr *ngIf="election?.candidate?.jf">
-                                  <td data-label="Candidate">
-                                    {{ election?.candidate?.jf }}
-                                  </td>
+                                  <td data-label="Candidate">{{ election?.candidate?.jf }}</td>
                                   <td data-label="Image">
                                     <img
                                       [src]="'/assets/' + election?.images?.jf"
                                       [alt]="election?.candidate?.jf"
                                     />
                                   </td>
-                                  <td data-label="Votes">
-                                    {{ election?.votes?.jf }}
-                                  </td>
-                                  <td data-label="Year">
-                                    {{ election?.year }}
-                                  </td>
+                                  <td data-label="PParty">Jf</td>
+                                  <td data-label="Votes">{{ election?.votes?.jf }}</td>
+                                  <td data-label="Year">{{ election?.year }}</td>
                                 </tr>
                               </tbody>
                             </table>
@@ -387,6 +332,7 @@
                             [alt]="election?.candidate?.fdc"
                           />
                         </td>
+                        <td data-label="PParty">Fdc</td>
                         <td data-label="Votes">{{ election?.votes?.fdc }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
@@ -400,21 +346,19 @@
                             [alt]="election?.candidate?.indep1"
                           />
                         </td>
-                        <td data-label="Votes">
-                          {{ election?.votes?.indep1 }}
-                        </td>
+                        <td data-label="PParty">Indep</td>
+                        <td data-label="Votes">{{ election?.votes?.indep1 }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.nrm">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.nrm }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.nrm }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.nrm"
                             [alt]="election?.candidate?.nrm"
                           />
                         </td>
+                        <td data-label="PParty">Nrm</td>
                         <td data-label="Votes">{{ election?.votes?.nrm }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
@@ -428,6 +372,7 @@
                             [alt]="election?.candidate?.nup"
                           />
                         </td>
+                        <td data-label="PParty">Nup</td>
                         <td data-label="Votes">{{ election?.votes?.nup }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
@@ -441,6 +386,7 @@
                             [alt]="election?.candidate?.ant"
                           />
                         </td>
+                        <td data-label="PParty">Ant</td>
                         <td data-label="Votes">{{ election?.votes?.ant }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
@@ -459,142 +405,129 @@
                       <tr>
                         <th>Candidate</th>
                         <th>Image</th>
+                        <th>PParty</th>
                         <th>Votes</th>
                         <th>Year</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr *ngIf="election?.candidate?.indep">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.indep }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.indep }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.indep"
                             [alt]="election?.candidate?.indep"
                           />
                         </td>
-                        <td data-label="Votes">
-                          {{ election?.votes?.indep }}
-                        </td>
+                        <td data-label="PParty">Indep</td>
+                        <td data-label="Votes">{{ election?.votes?.indep }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.fdc">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.fdc }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.fdc }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.fdc"
                             [alt]="election?.candidate?.fdc"
                           />
                         </td>
+                        <td data-label="PParty">Fdc</td>
                         <td data-label="Votes">{{ election?.votes?.fdc }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.indep1">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.indep1 }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.indep1 }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.indep1"
                             [alt]="election?.candidate?.indep1"
                           />
                         </td>
-                        <td data-label="Votes">
-                          {{ election?.votes?.indep1 }}
-                        </td>
+                        <td data-label="PParty">Indep</td>
+                        <td data-label="Votes">{{ election?.votes?.indep1 }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.nrm">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.nrm }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.nrm }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.nrm"
                             [alt]="election?.candidate?.nrm"
                           />
                         </td>
+                        <td data-label="PParty">Nrm</td>
                         <td data-label="Votes">{{ election?.votes?.nrm }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.nup">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.nup }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.nup }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.nup"
                             [alt]="election?.candidate?.nup"
                           />
                         </td>
+                        <td data-label="PParty">Nup</td>
                         <td data-label="Votes">{{ election?.votes?.nup }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.ant">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.ant }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.ant }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.ant"
                             [alt]="election?.candidate?.ant"
                           />
                         </td>
+                        <td data-label="PParty">Ant</td>
                         <td data-label="Votes">{{ election?.votes?.ant }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.upc">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.upc }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.upc }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.upc"
                             [alt]="election?.candidate?.upc"
                           />
                         </td>
+                        <td data-label="PParty">Upc</td>
                         <td data-label="Votes">{{ election?.votes?.upc }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.dp">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.dp }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.dp }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.dp"
                             [alt]="election?.candidate?.dp"
                           />
                         </td>
+                        <td data-label="PParty">Dp</td>
                         <td data-label="Votes">{{ election?.votes?.dp }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.ndf">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.ndf }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.ndf }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.ndf"
                             [alt]="election?.candidate?.ndf"
                           />
                         </td>
+                        <td data-label="Votes">Ndf</td>
                         <td data-label="Votes">{{ election?.votes?.ndf }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.jf">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.jf }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.jf }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.jf"
                             [alt]="election?.candidate?.jf"
                           />
                         </td>
+                        <td data-label="PParty">Jf</td>
                         <td data-label="Votes">{{ election?.votes?.jf }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
@@ -613,142 +546,129 @@
                       <tr>
                         <th>Candidate</th>
                         <th>Image</th>
+                        <th>PParty</th>
                         <th>Votes</th>
                         <th>Year</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr *ngIf="election?.candidate?.indep">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.indep }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.indep }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.indep"
                             [alt]="election?.candidate?.indep"
                           />
                         </td>
-                        <td data-label="Votes">
-                          {{ election?.votes?.indep }}
-                        </td>
+                        <td data-label="PParty">Indep</td>
+                        <td data-label="Votes">{{ election?.votes?.indep }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.fdc">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.fdc }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.fdc }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.fdc"
                             [alt]="election?.candidate?.fdc"
                           />
                         </td>
+                        <td data-label="PParty">Fdc</td>
                         <td data-label="Votes">{{ election?.votes?.fdc }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.indep1">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.indep1 }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.indep1 }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.indep1"
                             [alt]="election?.candidate?.indep1"
                           />
                         </td>
-                        <td data-label="Votes">
-                          {{ election?.votes?.indep1 }}
-                        </td>
+                        <td data-label="PParty">Indep</td>
+                        <td data-label="Votes">{{ election?.votes?.indep1 }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.nrm">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.nrm }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.nrm }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.nrm"
                             [alt]="election?.candidate?.nrm"
                           />
                         </td>
+                        <td data-label="PParty">Nrm</td>
                         <td data-label="Votes">{{ election?.votes?.nrm }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.nup">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.nup }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.nup }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.nup"
                             [alt]="election?.candidate?.nup"
                           />
                         </td>
+                        <td data-label="PParty">Nup</td>
                         <td data-label="Votes">{{ election?.votes?.nup }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.ant">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.ant }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.ant }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.ant"
                             [alt]="election?.candidate?.ant"
                           />
                         </td>
+                        <td data-label="PParty">Ant</td>
                         <td data-label="Votes">{{ election?.votes?.ant }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.upc">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.upc }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.upc }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.upc"
                             [alt]="election?.candidate?.upc"
                           />
                         </td>
+                        <td data-label="PParty">Upc</td>
                         <td data-label="Votes">{{ election?.votes?.upc }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.dp">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.dp }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.dp }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.dp"
                             [alt]="election?.candidate?.dp"
                           />
                         </td>
+                        <td data-label="PParty">Dp</td>
                         <td data-label="Votes">{{ election?.votes?.dp }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.ndf">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.ndf }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.ndf }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.ndf"
                             [alt]="election?.candidate?.ndf"
                           />
                         </td>
+                        <td data-label="PParty">Ndf</td>
                         <td data-label="Votes">{{ election?.votes?.ndf }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>
                       <tr *ngIf="election?.candidate?.jf">
-                        <td data-label="Candidate">
-                          {{ election?.candidate?.jf }}
-                        </td>
+                        <td data-label="Candidate">{{ election?.candidate?.jf }}</td>
                         <td data-label="Image">
                           <img
                             [src]="'/assets/' + election?.images?.jf"
                             [alt]="election?.candidate?.jf"
                           />
                         </td>
+                        <td data-label="PParty">Jf</td>
                         <td data-label="Votes">{{ election?.votes?.jf }}</td>
                         <td data-label="Year">{{ election?.year }}</td>
                       </tr>

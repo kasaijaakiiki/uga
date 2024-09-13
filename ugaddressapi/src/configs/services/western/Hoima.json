@@ -4,7 +4,7 @@
     "dist_code": 513,
     "dist_size": 1414.7,
     "city": "Hoima",
-    "location": "https://tinyurl.com/mr2az3bv",
+    "location": "https://tinyurl.com/38jbn6sm",
     "wmp_elections": [
       {
         "year": 2016,
@@ -19,12 +19,6 @@
           "fdc": "img/hoima/rnabisere.jpg",
           "indep1": "img/hoima/rbiraaba.jpg",
           "nrm": "img/hoima/tkaahwa.jpg"
-        },
-        "pparty": {
-          "indep": "Indep",
-          "fdc": "Fdc",
-          "indep1": "Indep",
-          "nrm": "Nrm"
         },
         "votes": {
           "indep": 43038,
@@ -49,13 +43,6 @@
           "ant": "img/hoima/vmulindwa.jpg",
           "fdc": "img/hoima/rnabisere.jpg"
         },
-        "pparty": {
-          "nrm": "Nrm",
-          "indep": "Indep",
-          "nup": "Nup",
-          "ant": "Ant",
-          "fdc": "Fdc"
-        },
         "votes": {
           "nrm": 28426,
           "indep": 18271,
@@ -79,12 +66,6 @@
           "nrm": "img/hoima/vkabasindi.jpg",
           "indep": "img/hoima/pnabisubi.jpg",
           "nup": "img/hoima/bkiiza.jpg"
-        },
-        "pparty": {
-          "fdc": "Fdc",
-          "nrm": "Nrm",
-          "indep": "Indep",
-          "nup": "Nup"
         },
         "votes": {
           "fdc": 18137,
@@ -112,14 +93,6 @@
           "ndf": "img/ckaruhanga.jpg",
           "jf": "img/mkibirige.jpg",
           "nrm": "img/kmuseveni.jpg"
-        },
-        "paprty": {
-          "upc": "Upc",
-          "fdc": "Fdc",
-          "dp": "Dp",
-          "ndf": "Ndf",
-          "jf": "Jf",
-          "nrm": "Nrm"
         },
         "votes": {
           "upc": 239,
@@ -149,13 +122,6 @@
           "upc": "img/mobote.jpg",
           "dp": "img/jssebaana.jpg",
           "nrm": "img/kmuseveni.jpg"
-        },
-        "paprty": {
-          "indep": "Indep",
-          "fdc": "Fdc",
-          "upc": "Upc",
-          "dp": "Dp",
-          "nrm": "Nrm"
         },
         "votes": {
           "indep": 663,
@@ -190,16 +156,6 @@
           "upc": "img/ootuunu.jpg",
           "indep": "img/lmukaaku.jpg",
           "nrm": "img/kmuseveni.jpg"
-        },
-        "pparty": {
-          "pdp": "Pdp",
-          "fdc": "Fdc",
-          "ufa": "Ufa",
-          "pp": "Pp",
-          "dp": "Dp",
-          "upc": "Upc",
-          "indep": "Indep",
-          "nrm": "Nrm"
         },
         "votes": {
           "pdp": 267,
@@ -237,16 +193,6 @@
           "indep2": "img/jmabirizi.jpg",
           "indep3": "img/mkyalya.jpg",
           "nrm": "img/kmuseveni.jpg"
-        },
-        "pparty": {
-          "pdp": "Pdp",
-          "indep": "Indep",
-          "indep1": "Indep",
-          "fpu": "Fpu",
-          "fdc": "Fdc",
-          "indep2": "Indep",
-          "indep3": "Indep3",
-          "nrm": "Nrm"
         },
         "votes": {
           "pdp": 578,
@@ -291,19 +237,6 @@
           "indep5": "img/htumukunde.jpg",
           "nrm": "img/kmuseveni.jpg"
         },
-        "pparty": {
-          "fdc": "Fdc",
-          "indep": "Indep",
-          "indep1": "Indep",
-          "indep2": "Indep",
-          "nup": "Nup",
-          "dp": "Dp",
-          "indep3": "Indep",
-          "ant": "Ant",
-          "indep4": "Indep",
-          "indep5": "Indep",
-          "nrm": "Nrm"
-        },
         "votes": {
           "fdc": 345,
           "indep": 1896,
@@ -326,19 +259,19 @@
     "population": [
       {
         "year": 1969,
-        "total": 57324
+        "total": "57,324"
       },
       {
         "year": 1980,
-        "total": 99881
+        "total": "99,881"
       },
       {
         "year": 1991,
-        "total": 123518
+        "total": "123,518"
       },
       {
         "year": 2002,
-        "total": 198833
+        "total": "198,833"
       },
       {
         "year": 2014,
@@ -348,7 +281,7 @@
         "r_pop": 467411,
         "hh_numbs": 125907,
         "hh_size": 4.5,
-        "total": 573903
+        "total": "573,903"
       },
       {
         "year": 2024,
@@ -394,13 +327,6 @@
               "indep": "img/hoima/hbisoborwa.jpg",
               "indep1": "img/hoima/pinsingoma.jpg"
             },
-            "pparty": {
-              "fdc": "Fdc",
-              "nrm": "Nrm",
-              "upc": "Upc",
-              "indep": "Indep",
-              "indep1": "Indep"
-            },
             "votes": {
               "fdc": 3878,
               "nrm": 13235,
@@ -422,12 +348,6 @@
               "nrm": "img/hoima/lbategeka.jpg",
               "fdc": "img/hoima/pbaguma.jpg",
               "indep1": "img/hoima/stumusiime.jpg"
-            },
-            "pparty": {
-              "indep": "Indep",
-              "nrm": "Nrm",
-              "fdc": "Fdc",
-              "indep1": "Indep"
             },
             "votes": {
               "indep": 2486,
@@ -451,13 +371,6 @@
               "nup": "img/hoima/maguuda.jpg",
               "indep1": "img/hoima/dmpabaisi.jpg",
               "fdc": "img/hoima/prwamiti.jpg"
-            },
-            "pparty": {
-              "indep": "Indep",
-              "nrm": "Nrm",
-              "nup": "Nup",
-              "indep1": "Indep",
-              "fdc": "Fdc"
             },
             "votes": {
               "indep": 9097,
@@ -658,13 +571,6 @@
               "indep1": "img/hoima/sbyakagaba.jpg",
               "indep2": "img/hoima/gbeeraheru.jpg"
             },
-            "pparty": {
-              "nrm": "Nrm",
-              "ant": "Ant",
-              "indep":"Indep",
-              "indep1": "Indep",
-              "indep2": "Indep"
-            },
             "votes": {
               "nrm": 6369,
               "ant": 6212,
@@ -795,11 +701,6 @@
               "fdc": "img/hoima/hmunyomo.jpg",
               "indep": "img/hoima/mbyahuka.jpg"
             },
-            "pparty": {
-              "nrm": "Nrm",
-              "fdc": "Fdc",
-              "indep": "Indep"
-            },
             "votes": {
               "nrm": 11906,
               "fdc": 2269,
@@ -819,12 +720,6 @@
               "indep": "img/hoima/gbihemaiso.jpg",
               "nup": "img/hoima/ragaba.jpg",
               "indep1": "img/hoima/mbyahuka.jpg"
-            },
-            "pparty": {
-              "nrm": "Nrm",
-              "indep": "Indep",
-              "nup": "Nup",
-              "indep1": "Indep"
             },
             "votes": {
               "nrm": 9633,
@@ -1138,12 +1033,6 @@
               "indep": "img/hoima/bkaija.jpg",
               "indep1": "img/hoima/jntegeka.jpg"
             },
-            "pparty": {
-              "nrm": "Nrm",
-              "fdc": "Fdc",
-              "indep": "Indep",
-              "indp1": "Indep"
-            },
             "votes": {
               "nrm": 42691,
               "fdc": 11027,
@@ -1166,13 +1055,6 @@
               "indep": "img/hoima/stumusiime.jpg",
               "indep1": "img/hoima/mkyakadongo.jpg",
               "nrm": "img/hoima/jrwebembera.jpg"
-            },
-            "pparty": {
-              "fdc": "Fdc",
-              "ppp": "Ppp",
-              "indep": "Indep",
-              "indep1": "Indep",
-              "nrm": "Nrm"
             },
             "votes": {
               "fdc": 8543,
