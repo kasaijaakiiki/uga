@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class HomeService {
   baseUrl: string = 'https://uga-1.onrender.com/api/v1/';
-
+  //baseUrl: string = 'http://127.0.0.1:5600/api/v1/';
   constructor(private httpClient: HttpClient) { }
   getRegions(): Observable<any> {
     console.log(this.baseUrl)
